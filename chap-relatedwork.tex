@@ -2,11 +2,29 @@
 \chapter{Related Work, Literature Review}
 \section{Related Work}
 There are various literatures proposed to introduce the driving behaviour analysis methods.
-\subsection{}
+\subsection{Driver Behaviour Analysis through Speech Emotional Understanding}
+This paper was proposed by N. Kamaruddin and A. Wahab. The scholars analyzed the driver behavior state (DBS) based on the emotion of the driver when the driver was driving. The emotion of the driver can be detected through speech. 
+The scholars used the Berlin dataset and NAW dataset as training set. The Berlin dataset and NAW dataset are standard dataset for speech emotion recognition and have been used by many researchers.
+The proposed method used the Generic Self-organizing Fuzzy Neural Network (GensoFNN) as a classifier for identification purpose. 
+\subsubsection{Generic Self-organizing Fuzzy Neural Network (GensoFNN)}
+Fuzzy neural network is the combination of neural network and fuzzy inference system. It contains the interpretability of fuzzy inference system and the adaptability of neural network. GensoFNN is a classifier that can generate consistent result as it is able to do self-clustering process of the training data.
+\subsubsection{Driver Behavior Analysis Method}
+This proposed method collected data from 11 adults (3 female and 8 male). The drivers have at least two years of driving experience and drive at least 10 hours per week. The drivers are required to do four designed actions. The actions are: 
+\begin{enumerate}
+\item driver talking through the mobile phone while driving.
+\item driver feeling sleepy.
+\item driver laught while driving
+\item driver in the initial driving exercise where the driver is in neural state of emotion.
+\end{enumerate}
+
+A microphone is embeded in the vehicle to collect the speech of the driver while driving. The experiments to analyzed the three DBS of talking, laughing, and sleepy were conducted. The scholar use the Berlin dataset and NAW dataset to related the three DBS with the angry, happy, and sad emotion.
+
+\subsubsection{Conclusion}
+The results were showed that the sleepy DBS can be recognized as sad emotion consistently. However, the talking and laughing DBS gave mixed results. It means that more work need to be conducted for better classification of the two DBS. The accuracy of sleepy emotion detection is up to 65\% using the proposed speech emotion recognition system.
 
 \section{Literature Review}
 \subsection{Driving Behavior Analysis Based on Vehicle OBD Information and AdaBoost Algorithms}
-This paper proposed by Shi-Huang Chen, Jeng-Shyang Pan, and Kaixuan Lu. The scholars analyzed the drivers' behavior based on the on board diagnostic (OBD) information and using the AdaBoost Alogorithms to create the driving  behavior classification.Finally, the experimental results show the correctness of the proposed driving behavior analysis method has 99.8\% accuracy rate in various driving simulations.
+This paper was proposed by Shi-Huang Chen, Jeng-Shyang Pan, and Kaixuan Lu. The scholars analyzed the drivers' behavior based on the on board diagnostic (OBD) information and using the AdaBoost Alogorithms to create the driving  behavior classification.Finally, the experimental results show the correctness of the proposed driving behavior analysis method has 99.8\% accuracy rate in various driving simulations.
 
 \subsubsection{AdaBoost Algorithms}
 AdaBoost is a classification machine learning algorithm. The AdaBoost algorithms is to form a strong classifier by combining the a large number of weak classifier. There are three different types of AdaBoost algorithms. They are Gentle AdaBoost, Modest AdaBoost and Real AdaBoost.

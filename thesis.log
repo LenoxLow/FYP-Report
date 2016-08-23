@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.19)  23 AUG 2016 23:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.19)  24 AUG 2016 01:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1687,27 +1687,27 @@ l.20 \subsection
 
 
 
-] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 37--40
+] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--47
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 62--65
 
  []
 
-[7]) [8]
+) [9]
 \openout2 = `sample-chap-dummy.aux'.
 
  (./sample-chap-dummy.tex
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 10.
- [9
+ [10
 
 
 
-]) [10pdfTeX warning (ext4): destination with the same identifier (name{figure.
+]) [11pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1716,7 +1716,7 @@ l.42 \include{sample-chap-dummy}
                                 ]
 \openout2 = `sample-chap-conclusion.aux'.
 
- (./sample-chap-conclusion.tex) [11
+ (./sample-chap-conclusion.tex) [12
 
 
 
@@ -1724,29 +1724,29 @@ l.42 \include{sample-chap-dummy}
 \openout2 = `sample-appen-manual.aux'.
 
 
-(./sample-appen-manual.tex) [12
+(./sample-appen-manual.tex) [13
 
 
 
 ]
 \openout2 = `sample-appen-try.aux'.
 
- (./sample-appen-try.tex) [13
+ (./sample-appen-try.tex) [14
 
 
 
 ]
 No file thesis.bbl.
 No file thesis.gls.
-[14
+[15
 
 
 ] (./thesis.ent)
 No file thesis.ind.
 No file own.bbl.
-[15
+[16
 
-] [16
+] [17
 
 ]
 \tf@toc=\write10
@@ -1765,12 +1765,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
 (./sample-appen-manual.aux) (./sample-appen-try.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 88AEAC85261733ACA368551D7715A638;2192.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 88AEAC85261733ACA368551D7715A638;2192
+(rerunfilecheck)             After:  25399B22BB9823FA39DB777C33981954;2256.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 16698 strings out of 493014
- 240717 string characters out of 6133351
+ 16706 strings out of 493014
+ 240811 string characters out of 6133351
  532784 words of memory out of 5000000
  19760 multiletter control sequences out of 15000+600000
  65620 words of font info for 98 fonts, out of 8000000 for 9000
@@ -1785,10 +1795,10 @@ ve/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8ac.pfb></usr/local/texlive/201
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on thesis.pdf (29 pages, 184526 bytes).
+Output written on thesis.pdf (30 pages, 187678 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 330 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 387 PDF objects out of 1000 (max. 8388607)
+ 341 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
  270 words of extra memory for PDF output out of 10000 (max. 10000000)
 
