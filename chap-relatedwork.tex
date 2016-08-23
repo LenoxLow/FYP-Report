@@ -1,0 +1,51 @@
+%!TEX ROOT = thesis.tex
+\chapter{Related Work, Literature Review}
+\section{Related Work}
+There are various literatures proposed to introduce the driving behaviour analysis methods.
+\subsection{}
+
+\section{Literature Review}
+\subsection{Driving Behavior Analysis Based on Vehicle OBD Information and AdaBoost Algorithms}
+This paper proposed by Shi-Huang Chen, Jeng-Shyang Pan, and Kaixuan Lu. The scholars analyzed the drivers' behavior based on the on board diagnostic (OBD) information and using the AdaBoost Alogorithms to create the driving  behavior classification.Finally, the experimental results show the correctness of the proposed driving behavior analysis method has 99.8\% accuracy rate in various driving simulations.
+
+\subsubsection{AdaBoost Algorithms}
+AdaBoost is a classification machine learning algorithm. The AdaBoost algorithms is to form a strong classifier by combining the a large number of weak classifier. There are three different types of AdaBoost algorithms. They are Gentle AdaBoost, Modest AdaBoost and Real AdaBoost.
+
+\subsubsection{Driving Behaviour Analysis Method}
+This proposed method used the OBD-II ssytem in the vehicle and EZ-SCAN5 as the OBD-II to Bluetooth adapter to collect the vehicle operation information. OBD-II is proposed in 1996 to replace the OBD-I system. The OBD-II system is implemented in every vehicle uncer the Environmental Protection Agency (EPA) regulation in USA since 1996. When teh air-pollution contents exhausted by the vehicle exceed teh minimum level,the OBD-II system of the particular vehicle will generate the Diagnostic Trouble Code (DTC) message and Check Engine light will display on the vehicle dashboard. In order to communicate with the OBD-II system of the vehicle, EZ-SCAN5 as a OBD-II to Bluetooth adapter is required. The EZ-SCAN5 support most of the OBD-II communication protocols, such as SAE J1850 PWM, SAE J1850 VPW, ISO 9141-2, ISO 14230-4 KWP, and ISO 15765-4 CAN. If the communication protocol of the OBD-II system is not supported by the adapter, the vehicle operation information will not be able to retrieve.
+
+This proposed method collected vehicle speed, engine speed(RPM), throttle position and engine load as the vehicle operation information. According to the engine characteristic curve, the proposed method developed two criteria for the data collection.
+
+\begin{enumerate}
+\item The normal vehicle condition data \\
+The relative ratio of the vehicle speed and the engine speed is remained in a range that between 0.9 and 1.3. The result was tested in the same gear. The relative ratio of the engine speed and throttle valve is remained in a range that between 0.9 and 1.3. The engine load is remained between 20\% and 50\%.  
+\item The bad vehicle condition data \\
+The relative ratio of the vehicle speed and the engine speed is out of the range that between 0.9 and 1.3. The result was tested in the same gear. The relative ratio of the engine speed and throttle valve is out of the range that between 0.9 and 1.3. The engine load is out of the range that between 20\% and 50\%.
+\end{enumerate}
+
+\subsubsection{Vehicle OBD information Data Preprocessing}
+The proposed method used three characteristics. The three characteristics are the relative ratio of the vehicle speed and engine speed, the relative ratio of throttle position and engine speed, and engine load. Using the characteristics to analyzed the current state of the driving behavior whether the driver is in safe state or dangerous state.The proposed method needed to compute the change rate of vehicle speed, engine speed and throttle position in the first step. The calculation shown in Equation\eqref{eqa:ada_change_rate}, where $t_{2} - t_{1} = 1$.\\
+\begin{equation}
+\label{eqa:ada_change_rate}
+D(t) = \dfrac{data(t_{2})-data(t_{1})}{t_{2}-t_{1}}
+\end{equation}
+
+The next step is to calculate the relative ratio of the vehicle speed and engine speed, and the relative ratio of the throttle position and engine speed. The calculation shown in the Equation\eqref{eqa:ada_relative_eng_veh} and \eqref{eqa:ada_relative_eng_thr}. \\
+\begin{equation}
+\label{eqa:ada_relative_eng_veh}
+R_{cz}(t) = \dfrac{cs(t)}{220} \div \dfrac{zs(t)}{8000}
+\end{equation}
+\\
+where $R_{cz}(t)$ is the relative ratio of engine speed and vehicle speed. $cs(t)$ is the vehicle speed at time $t$. The 220 is the value of maximum vehicle speed. $zs(t)$ is the engine speed a time $t$. The 8000 is the value of maximum engine speed of the vehicle.\\
+
+\begin{equation}
+\label{eqa:ada_relative_eng_thr}
+R_{jz}(t) = \dfrac{jq'(t)}{max(jq')} \div \dfrac{zs'(t)}{max(zs'(t))}
+\end{equation}
+\\
+where $R_{jz}(t)$ is the relative ratio of engine speed and throttle position. The $jq'(t)$ is the change rate of the throttle position at time $t$. $zs'(t)$ is the change rate of the engine speed at time $t$. The $max(jq'(t))$ and $max(zs'(t))$ is the maximum value of the change rate of throttle position and engine speed, respectively.\\
+
+Based on the two computed features and engine load, this three features were combined to determine the vehicle data is normal or bad driving behavior.
+
+\subsubsection{Experimental Results}
+The proposed method used the tookit-GML-AdaBoost-matlab of MATLAB to execute data preprocessing and driving behavior modeling. The preprocessed data is tested on three diferent types of the AdaBoost algorithms. They are Gentle AdaBoost, Modest AdaBoost and Real AdaBoost. The Real AdaBoost are better than other AdaBoost algorithms with the highest accuracy rate, 99.8%.

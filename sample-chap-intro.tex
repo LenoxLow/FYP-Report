@@ -43,5 +43,11 @@ Shi-Huang Chen, Jeng-Shyang Pan, and Kaixuan Lu proposed a driving behavior anal
 \item To profile the drivers based on the vehicle operation data. 
 \end{enumerate}
 
-\subsection{Research Motivation}
-This project is to make use of the driving behavior analysis methodologies from published researches. The performance index for approach and alienation 
+\section{Research Motivation}
+This project is designed to capture actual driving behavior data by using sensor. The driver behavior will be analysed based on the vehicle operation data collected from the sensor plugged in the particular vehicle.  
+This project will use the ELM327 as a device that communicates with the vehicle OBD-II interface. The GPS data and vehicle operation data will be collected through the application Torque(Lite) via bluetooth. 
+The performance index for approach and alienation will be used in this projetc as a feature to analyze the drivers' driving behaviour. The driver who exceed the speed limit can be detected by using the vehicle speed and the GPS location information.
+
+\section{Project Scope}
+This project focuses on the driver behavior profiling. The vehicle operation data will be collected and pre-processed before execute the analysis. There are 10 drivers' vehicle operation data collected in this project. Each driver is required to drive the car at least 10 minutes. The data will be recorded in every second. For each driver, there are at least 600 records in the vehicle operation data file. After using the machine learning technique to classified the drivers, the drivers will be categorized to three classes. The classes are low risk, medium risk and high risk. 
+ 

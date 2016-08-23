@@ -7,10 +7,10 @@
 \contentsline {chapter}{DEDICATION}{v}{section*.4}
 \contentsline {chapter}{ABSTRACT}{vi}{section*.5}
 \contentsline {chapter}{TABLE OF CONTENTS}{vii}{section*.6}
-\contentsline {chapter}{LIST OF TABLES}{viii}{section*.7}
-\contentsline {chapter}{LIST OF FIGURES}{ix}{section*.8}
+\contentsline {chapter}{LIST OF TABLES}{ix}{section*.7}
+\contentsline {chapter}{LIST OF FIGURES}{x}{section*.8}
 \vspace *{-4pt}
-\contentsline {chapter}{\MakeUppercase {Preface}}{x}{chapter*.9}
+\contentsline {chapter}{\MakeUppercase {Preface}}{xi}{chapter*.9}
 \vspace *{-4pt}
 \contentsline {chapter}{\chapternumberline {1}\MakeUppercase {Introduction, Background Story, Motivations}}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Basic Introduction}{1}{section.1.1}
@@ -21,17 +21,28 @@
 \contentsline {subsection}{\numberline {1.1.2}Driver Behavior Analysis}{3}{subsection.1.1.2}
 \contentsline {subsection}{\numberline {1.1.3}Driving Behavior Analysis Based on AdaBoost Algorithms}{3}{subsection.1.1.3}
 \contentsline {section}{\numberline {1.2}Project Objective}{3}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Research Motivation}{4}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.3}Research Motivation}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Project Scope}{4}{section.1.4}
 \vspace *{-4pt}
-\contentsline {chapter}{\chapternumberline {2}\MakeUppercase {Dummy Chapter}}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Research Methodology and Design}{5}{section.2.1}
+\contentsline {chapter}{\chapternumberline {2}\MakeUppercase {Related Work, Literature Review}}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Related Work}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}}{5}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Literature Review}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Driving Behavior Analysis Based on Vehicle OBD Information and AdaBoost Algorithms}{5}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1 (a)}AdaBoost Algorithms}{5}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\numberline {2.2.1 (b)}Driving Behaviour Analysis Method}{5}{subsubsection.2.2.1.2}
+\contentsline {subsubsection}{\numberline {2.2.1 (c)}Vehicle OBD information Data Preprocessing}{7}{subsubsection.2.2.1.3}
+\contentsline {subsubsection}{\numberline {2.2.1 (d)}Experimental Results}{8}{subsubsection.2.2.1.4}
 \vspace *{-4pt}
-\contentsline {chapter}{\chapternumberline {3}\MakeUppercase {Conclusion}}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Conclusion}{7}{section.3.2}
+\contentsline {chapter}{\chapternumberline {3}\MakeUppercase {Dummy Chapter}}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Research Methodology and Design}{9}{section.3.1}
 \vspace *{-4pt}
-\contentsline {appendix}{\chapternumberline {A}\MakeUppercase {Manuals, Technical Specifications, Documentations, Example Scenarios}}{8}{appendix.A}
+\contentsline {chapter}{\chapternumberline {4}\MakeUppercase {Conclusion}}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}Conclusion}{11}{section.4.2}
 \vspace *{-4pt}
-\contentsline {appendix}{\chapternumberline {B}\MakeUppercase {Appendix 2: What is appendix}}{9}{appendix.B}
+\contentsline {appendix}{\chapternumberline {A}\MakeUppercase {Manuals, Technical Specifications, Documentations, Example Scenarios}}{12}{appendix.A}
 \vspace *{-4pt}
-\contentsline {chapter}{\MakeUppercase {Notes}}{11}{appendix*.10}
+\contentsline {appendix}{\chapternumberline {B}\MakeUppercase {Appendix 2: What is appendix}}{13}{appendix.B}
+\vspace *{-4pt}
+\contentsline {chapter}{\MakeUppercase {Notes}}{15}{appendix*.10}
