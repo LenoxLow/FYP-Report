@@ -22,6 +22,21 @@ A microphone is embeded in the vehicle to collect the speech of the driver while
 \subsubsection{Conclusion}
 The results were showed that the sleepy DBS can be recognized as sad emotion consistently. However, the talking and laughing DBS gave mixed results. It means that more work need to be conducted for better classification of the two DBS. The accuracy of sleepy emotion detection is up to 65\% using the proposed speech emotion recognition system.
 
+\subsection{Driver Behaviour Analysis and Route Recognition by Hidden Markov Models}
+This paper was proposed by Amardeep Sathyanarayana, Pınar Boyraz, and John H.L. Hansen. This paper introduced the driver behaviour modeling using Hidden Markov Models (HMM) in Bottom-to-Top Approach and Top-to-Bottom Approach.
+
+In the Bottom-to-top approach, the maneuvers are the smallest unit to be recognized by the algorithms. The driver behavior can be discovered from the recognized maneuvers and be used to build the maneuver models. The multi-maneuver models use the maneuvers model to be built and finally become a complete route. The Bottom-to-Top approach is to detect the distratcion of driver based on the comparison of the neutral state vehicle operation data in the known maneuvers.
+
+In Top-to-Bottom approach, it is an opposite approach in driving behavior modeling. A single HMM is used to parse the route to the indvidual meaningful parts like maneuvers and states. The result of this approach is that the driver behavior in intersection will be identified by using three main clusters. The Top-to-Bottom approach is to recognized the route based on the vehicle operation data.
+
+\subsubsection{Data Collection}
+The proposed method used UTDrive Vehicle to collect the data. The UTDrive Vehicle is converted from a Toyota RAV4 vehicle. The UTDrive Vehicle is equiped camera to capture the driver and the road. The driver speech also been recorded by the equiped microphone in the vehicle. Distance sensor using laser and GPS for position measurement are also equiped. The CAN-Bus is used to collected the vehicle speed, steering wheel angle, and brake/gas information. The vehicle also equiped gas/brake pedal pressure sensors. 
+
+The experiment conducted in two different areas in order to collect two different senarios data. The residential and commercial area including the right turn, left turn and lane change were selected for drivers to driver through. The drivers were required to drive two times with neutral driving and distracted driving. 
+ 
+\subsubsection{Conclusion}
+Three different types of maneuvers (left turn, right turn, and lane change) were well recognized by using the three CAN-Bus signals (vehicle speed, steering angle, and brake force). On the other hand, the distraction detection was well recognized and having 95\% accuracy.
+
 \section{Literature Review}
 \subsection{Driving Behavior Analysis Based on Vehicle OBD Information and AdaBoost Algorithms}
 This paper was proposed by Shi-Huang Chen, Jeng-Shyang Pan, and Kaixuan Lu. The scholars analyzed the drivers' behavior based on the on board diagnostic (OBD) information and using the AdaBoost Alogorithms to create the driving  behavior classification.Finally, the experimental results show the correctness of the proposed driving behavior analysis method has 99.8\% accuracy rate in various driving simulations.
@@ -66,4 +81,4 @@ where $R_{jz}(t)$ is the relative ratio of engine speed and throttle position. T
 Based on the two computed features and engine load, this three features were combined to determine the vehicle data is normal or bad driving behavior.
 
 \subsubsection{Experimental Results}
-The proposed method used the tookit-GML-AdaBoost-matlab of MATLAB to execute data preprocessing and driving behavior modeling. The preprocessed data is tested on three diferent types of the AdaBoost algorithms. They are Gentle AdaBoost, Modest AdaBoost and Real AdaBoost. The Real AdaBoost are better than other AdaBoost algorithms with the highest accuracy rate, 99.8%.
+The proposed method used the tookit-GML-AdaBoost-matlab of MATLAB to execute data preprocessing and driving behavior modeling. The preprocessed data is tested on three diferent types of the AdaBoost algorithms. They are Gentle AdaBoost, Modest AdaBoost and Real AdaBoost. The Real AdaBoost are better than other AdaBoost algorithms with the highest accuracy rate, 99.8\%.

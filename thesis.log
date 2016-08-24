@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.19)  24 AUG 2016 01:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.19)  24 AUG 2016 13:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1663,7 +1663,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
 
-<image/accident.png, id=233, 1146.2825pt x 624.3325pt>
+<image/accident.png, id=234, 1146.2825pt x 624.3325pt>
 File: image/accident.png Graphic file (type png)
 
 <use image/accident.png>
@@ -1687,13 +1687,19 @@ l.20 \subsection
 
 
 
-] [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 55--58
+]
+Overfull \hbox (5.69281pt too wide) in paragraph at lines 25--25
+[]\T1/ptm/b/n/12 Driver Be-haviour Anal-y-sis and Route Recog-ni-tion by Hid-de
+n Markov Mod-
+ []
+
+[6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
 
  []
 
@@ -1772,20 +1778,17 @@ Package rerunfilecheck Warning: File `thesis.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 88AEAC85261733ACA368551D7715A638;2192
-(rerunfilecheck)             After:  25399B22BB9823FA39DB777C33981954;2256.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Before: 25399B22BB9823FA39DB777C33981954;2256
+(rerunfilecheck)             After:  302C0D61F233FBBEC9422D1BE9BEC204;2381.
  ) 
 Here is how much of TeX's memory you used:
- 16706 strings out of 493014
- 240811 string characters out of 6133351
- 532784 words of memory out of 5000000
+ 16707 strings out of 493014
+ 240827 string characters out of 6133351
+ 532785 words of memory out of 5000000
  19760 multiletter control sequences out of 15000+600000
  65620 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,11n,39p,1976b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,10n,39p,1976b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -1795,10 +1798,10 @@ ve/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8ac.pfb></usr/local/texlive/201
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on thesis.pdf (30 pages, 187678 bytes).
+Output written on thesis.pdf (30 pages, 188094 bytes).
 PDF statistics:
- 387 PDF objects out of 1000 (max. 8388607)
- 341 compressed objects within 4 object streams
- 88 named destinations out of 1000 (max. 500000)
+ 389 PDF objects out of 1000 (max. 8388607)
+ 343 compressed objects within 4 object streams
+ 89 named destinations out of 1000 (max. 500000)
  270 words of extra memory for PDF output out of 10000 (max. 10000000)
 
