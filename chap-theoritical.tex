@@ -1,18 +1,25 @@
 %!TEX ROOT = thesis.tex
 \chapter{chap-theoritical}
-\section{Vehicle Operation Data Collection}
+\section{Vehicle Operation Data Collection Based on OBD system}
 The behaviour of the driver is hard to be identified. The driver behavior is affected by environment, vehicle condition and the mental or physical state. One way to identify driver behaviour is using the vehicle operation data.
 
-\subsection{OBD System}
 The OBD system is also called OBD-II, was proposed in 1996. In 1996, all the cars manufactured in United State (US) were required to equip OBD-II and the cars without OBD-II prohibited to sell in US. The purpose to have OBD-II specifications is to diagnose engine problem. The specifications were being used by the Environment Protection Agency (EPA) and the state of California to meet the emission standards. Since 1996, all the cars in US are required to be equiped with OBD-II to establish the EPA regulation. 
 
-The usage of the OBD-II is important for detecting the vehicle exhaustion. If the vehicle is exhaust high level of air-pollution content, Diagnostic Trouble Codes (DTCs) will be geneated by the OBD-II and a Check Engine Light will be displayed on vehicle dashboard. A OBD-II scanning tool can access the DTCs from the Engine Control Unit (ECU). 
+The usage of the OBD-II is important for detecting the vehicle exhaustion. If the vehicle is exhaust high level of air-pollution content, Diagnostic Trouble Codes (DTCs) will be geneated by the OBD-II and a Check Engine Light will be displayed on vehicle dashboard. OBD-II will store this DTCs into the ECU's memory. An OBD-II scanning tool can access the Engine Control Unit (ECU) to retrieve the DTCs.
 
+The OBD-II is usually installed under the vehicle dashboard and above the pedals.
 \subsection{ELM327}
-ELM327 is used in the data collection process. The ELM327 is a programed microcontroller. It is an interface to communicate with the On Board Diagnotics port of the vehicle. The ELM327 supports most of OBD-II protocols. ELM327 also contains the bluetooth adapter. The ELM327 needs to be plugged to the OBD-II port that can be found under the vehicle dashboard and above the pedals. 
+ELM327 is an OBD-II scanning tool produced by ELM Eletronics. It is a programed microcontroller to communicate with the OBD-II port of the vehicle. The ELM327 supports most of OBD-II protocols. ELM327 also contains the bluetooth adapter. The ELM327 needs to be plugged to the OBD-II port.
 
 \subsection{Torque(Lite)}
 Torque Lite version is a free android application and it is able to be installed in smartphone from Google Play Store. The application will communicate with the ELM327 through the bluetooth connection. The application will collect the data received from the ELM327 and  save the data into a .csv file in the smartphone. 
+
+After vehicle ignition is on, ELM327 need to connect with the smartphone that operating Torque via Bluetooth. Once the smartphone connected with the adapter, Torque will choose the protocol that matches with the OBD-II system. After the matching successed, Torque will start to read the sensor information from the ECU. In order to collect the GPS data, smartphone's location service is required to be enabled at the same time. When the smartphone received GPS signal and connected with the adapter, there are four flashing icons at the top right of the main screen will stay solid with blue color.
+ 
+\section{KNIME Analytics Platform}
+KNIME Analytics Platform is an open platform for data analysis. It is a perfect tool for data scientists. 
+
+KNIME Analytics Platform contain 1000 modules ,hundreds of ready-to-run examples, a set of integrated tools, and a list of advance algorithms available. User can build a machine learning experiment by dragging and dropping the related modules into the project. User needs to link and configure the module before execution. 
 
 %\subsection{Analysis of Driving Behavior in Longitudinal Direction Based on A Performance Index for Approach and Alienation}
 %Takahiro Wada, Shun'ichi Doi, Keisuke Imai, Hiroshi Kaneko, Naohiko Tsuru, and Kazuyoshi Isaji introduced a performance index for approach and alienation to analyze the drivers' behavior in longitudinal direction. The performance index is calculated based on the relative velocity and distance with the preceding car. The data is collected through a driver simulator. Based on the index, drivers' brake pattern can be analyzed.

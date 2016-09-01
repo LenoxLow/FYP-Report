@@ -9,26 +9,36 @@
 \BOOKMARK [0][-]{section*.8}{List of Figures}{front.-1}% 9
 \BOOKMARK [0][-]{chapter*.9}{Preface}{front.-1}% 10
 \BOOKMARK [-1][-]{main.-1}{Main Chapters}{}% 11
-\BOOKMARK [0][-]{chapter.1}{Introduction, Background Story, Motivations}{main.-1}% 12
+\BOOKMARK [0][-]{chapter.1}{Introduction}{main.-1}% 12
 \BOOKMARK [1][-]{section.1.1}{Basic Introduction}{chapter.1}% 13
-\BOOKMARK [2][-]{subsection.1.1.1}{Vehicle Operation Data Collection}{section.1.1}% 14
-\BOOKMARK [2][-]{subsection.1.1.2}{Driver Behavior Analysis}{section.1.1}% 15
-\BOOKMARK [2][-]{subsection.1.1.3}{Driving Behavior Analysis Based on AdaBoost Algorithms}{section.1.1}% 16
-\BOOKMARK [1][-]{section.1.2}{Project Objective}{chapter.1}% 17
-\BOOKMARK [1][-]{section.1.3}{Research Motivation}{chapter.1}% 18
-\BOOKMARK [1][-]{section.1.4}{Project Scope}{chapter.1}% 19
-\BOOKMARK [0][-]{chapter.2}{Related Work, Literature Review}{main.-1}% 20
-\BOOKMARK [1][-]{section.2.1}{Related Work}{chapter.2}% 21
-\BOOKMARK [2][-]{subsection.2.1.1}{Driver Behaviour Analysis through Speech Emotional Understanding}{section.2.1}% 22
-\BOOKMARK [2][-]{subsection.2.1.2}{Driver Behaviour Analysis and Route Recognition by Hidden Markov Models}{section.2.1}% 23
-\BOOKMARK [1][-]{section.2.2}{Literature Review}{chapter.2}% 24
-\BOOKMARK [2][-]{subsection.2.2.1}{Driving Behavior Analysis Based on Vehicle OBD Information and AdaBoost Algorithms}{section.2.2}% 25
-\BOOKMARK [0][-]{chapter.3}{Dummy Chapter}{main.-1}% 26
-\BOOKMARK [1][-]{section.3.1}{Research Methodology and Design}{chapter.3}% 27
-\BOOKMARK [0][-]{chapter.4}{Conclusion}{main.-1}% 28
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.2}{Conclusion}{chapter.4}% 30
-\BOOKMARK [0][-]{appendix.A}{Manuals, Technical Specifications, Documentations, Example Scenarios}{main.-1}% 31
-\BOOKMARK [0][-]{appendix.B}{Appendix 2: What is appendix}{main.-1}% 32
-\BOOKMARK [-1][-]{back.-1}{Back Matter}{}% 33
-\BOOKMARK [0][-]{appendix*.10}{Notes}{back.-1}% 34
+\BOOKMARK [1][-]{section.1.2}{Project Objective}{chapter.1}% 14
+\BOOKMARK [1][-]{section.1.3}{Research Motivation}{chapter.1}% 15
+\BOOKMARK [1][-]{section.1.4}{Project Scope}{chapter.1}% 16
+\BOOKMARK [0][-]{chapter.2}{Related Work}{main.-1}% 17
+\BOOKMARK [1][-]{section.2.1}{Driver Behaviour Analysis through Speech Emotional Understanding}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.1.1}{Generic Self-organizing Fuzzy Neural Network \(GensoFNN\)}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.2}{Driver Behavior Analysis Method}{section.2.1}% 20
+\BOOKMARK [2][-]{subsection.2.1.3}{Conclusion}{section.2.1}% 21
+\BOOKMARK [1][-]{section.2.2}{Driver Behaviour Analysis and Route Recognition by Hidden Markov Models}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.1}{Data Collection}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.2}{Conclusion}{section.2.2}% 24
+\BOOKMARK [1][-]{section.2.3}{Driving Behavior Analysis Based on Vehicle OBD Information and AdaBoost Algorithms}{chapter.2}% 25
+\BOOKMARK [2][-]{subsection.2.3.1}{AdaBoost Algorithms}{section.2.3}% 26
+\BOOKMARK [2][-]{subsection.2.3.2}{Driving Behaviour Analysis Method}{section.2.3}% 27
+\BOOKMARK [2][-]{subsection.2.3.3}{Vehicle OBD information Data Preprocessing}{section.2.3}% 28
+\BOOKMARK [2][-]{subsection.2.3.4}{Experimental Results}{section.2.3}% 29
+\BOOKMARK [0][-]{chapter.3}{chap-theoritical}{main.-1}% 30
+\BOOKMARK [1][-]{section.3.1}{Vehicle Operation Data Collection Based on OBD system}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.1.1}{ELM327}{section.3.1}% 32
+\BOOKMARK [2][-]{subsection.3.1.2}{Torque\(Lite\)}{section.3.1}% 33
+\BOOKMARK [1][-]{section.3.2}{KNIME Analytics Platform}{chapter.3}% 34
+\BOOKMARK [0][-]{chapter.4}{Research Methodology}{main.-1}% 35
+\BOOKMARK [1][-]{section.4.1}{Driving Operation Data Acquisition}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.2}{Driving Operation Data Preprocessing}{chapter.4}% 37
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{main.-1}% 38
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.2}{Conclusion}{chapter.5}% 40
+\BOOKMARK [0][-]{appendix.A}{Manuals, Technical Specifications, Documentations, Example Scenarios}{main.-1}% 41
+\BOOKMARK [0][-]{appendix.B}{Appendix 2: What is appendix}{main.-1}% 42
+\BOOKMARK [-1][-]{back.-1}{Back Matter}{}% 43
+\BOOKMARK [0][-]{appendix*.10}{Notes}{back.-1}% 44
