@@ -11,3 +11,7 @@ For this project, the vehicle OBD-II information data and Global Positioning Sys
 \section{Driving Operation Data Preprocessing}
 The first 30 rows and last 30 rows of the collected vehicle operation data need to be unselected. It is because drivers just come out from the parking at the begining or drive into a parking slot at the end of the driving session. 
 
+\section{Feature Derivation}
+In this project, features have been derived from the collected vehicle operation data and GPS data. The first derived feature is speed limit condition. The speed limit condition is an attribute to define whether the driver exceeded the speed limit at the particular location and time. The value of the speed limit condition is "Yes" or "No".
+
+In order to get the value of speed limit condition, the road condition needs to be specified first. The road condition can be specified by using GPS Bearing and GPS coordination. The change rate of the GPS Bearing can be used to determine the driver is driving straight or turning. Different areas have different speed limitations. The GPS coordination is used for determining the driving area. The speed limit of the roads will be used for determining the speed limit condition.
