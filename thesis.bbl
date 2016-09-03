@@ -1,0 +1,124 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Chen%
+, Pan%
+\BCBL {}\ \BBA {} Lu%
+}{%
+Chen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+chen:pan:lu:2015}
+\APACinsertmetastar {%
+chen:pan:lu:2015}%
+\begin{APACrefauthors}%
+Chen, S\BHBI H.%
+, Pan, J\BHBI S.%
+\BCBL {}\ \BBA {} Lu, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{March}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Driving Behavior Analysis Based on Vehicle OBD
+  Information and AdaBoost Algorithms} {Driving behavior analysis based on
+  vehicle obd information and adaboost algorithms}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the {IMECS} International MultiConference
+  of Engineers and Computer Scientist 2015} {Proceedings of the {IMECS}
+  international multiconference of engineers and computer scientist 2015}\
+  (\BVOL~1, \BPG~102-106).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kamaruddin%
+\ \BBA {} Wahab%
+}{%
+Kamaruddin%
+\ \BBA {} Wahab%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+kamaruddin:wahab:2010}
+\APACinsertmetastar {%
+kamaruddin:wahab:2010}%
+\begin{APACrefauthors}%
+Kamaruddin, N.%
+\BCBT {}\ \BBA {} Wahab, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{June}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Driver behavior analysis through speech emotion
+  understanding} {Driver behavior analysis through speech emotion
+  understanding}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Intelligent Vehicles Symposium (IV), 2010 IEEE}
+  {Intelligent vehicles symposium (iv), 2010 ieee}\ (\BPG~238-243).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/IVS.2010.5548124} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kulanthayan%
+, Phang%
+\BCBL {}\ \BBA {} Hayati%
+}{%
+Kulanthayan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+kulanthayan:phang:hayati:2007}
+\APACinsertmetastar {%
+kulanthayan:phang:hayati:2007}%
+\begin{APACrefauthors}%
+Kulanthayan, S.%
+, Phang, W.%
+\BCBL {}\ \BBA {} Hayati, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{March}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Traffic Light Violation among Motorists in Malaysia}
+  {Traffic light violation among motorists in malaysia}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {IATSS Research} {Iatss research}\ (\BVOL~31,
+  \BPG~67-73).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sathyanarayana%
+, Boyraz%
+\BCBL {}\ \BBA {} Hansen%
+}{%
+Sathyanarayana%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+sath:2008}
+\APACinsertmetastar {%
+sath:2008}%
+\begin{APACrefauthors}%
+Sathyanarayana, A.%
+, Boyraz, P.%
+\BCBL {}\ \BBA {} Hansen, J\BPBI H\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{Sept}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Driver behavior analysis and route recognition by Hidden
+  Markov Models} {Driver behavior analysis and route recognition by hidden
+  markov models}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Vehicular Electronics and Safety, 2008. ICVES 2008. IEEE
+  International Conference on} {Vehicular electronics and safety, 2008. icves
+  2008. ieee international conference on}\ (\BPG~276-281).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ICVES.2008.4640874} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

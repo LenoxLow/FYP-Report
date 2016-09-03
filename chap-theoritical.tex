@@ -1,28 +1,29 @@
 %!TEX ROOT = thesis.tex
-\chapter{chap-theoritical}
-\section{Vehicle Operation Data Collection Based on OBD system}
-The behaviour of the driver is hard to be identified. The driver behavior is affected by environment, vehicle condition and the mental or physical state. One way to identify driver behaviour is using the vehicle operation data.
+\chapter{Requirement}
+\section{Hardware Requirement Introduction}
+In this project, a smartphone is required. The smartphone must have Global Positioning System (GPS) and bluetooth device. A OBD-II to Bluetooth adapter, ELM327 is required to use in data collection. The vehicle used to collect driver data should be 2006 model year cars onwards. Some of the brand can not be supported by the ELM327 due to the protocols mismatch. The ELM327 supports most of the 2008 model year cars in Proton brand, Toyota brand, and Honda brand. However, the latest model of the vehicle may not be supported due to the protocols mismatch problem also.
 
+\subsection{Vehicle OBD system}
 The OBD system is also called OBD-II, was proposed in 1996. In 1996, all the cars manufactured in United State (US) were required to equip OBD-II and the cars without OBD-II prohibited to sell in US. The purpose to have OBD-II specifications is to diagnose engine problem. The specifications were being used by the Environment Protection Agency (EPA) and the state of California to meet the emission standards. Since 1996, all the cars in US are required to be equiped with OBD-II to establish the EPA regulation. 
 
 The usage of the OBD-II is important for detecting the vehicle exhaustion. If the vehicle is exhaust high level of air-pollution content, Diagnostic Trouble Codes (DTCs) will be geneated by the OBD-II and a Check Engine Light will be displayed on vehicle dashboard. OBD-II will store this DTCs into the ECU's memory. An OBD-II scanning tool can access the Engine Control Unit (ECU) to retrieve the DTCs.
 
 The OBD-II is usually installed under the vehicle dashboard and above the pedals.
+
 \subsection{ELM327}
 ELM327 is an OBD-II scanning tool produced by ELM Eletronics. It is a programed microcontroller to communicate with the OBD-II port of the vehicle. The ELM327 supports most of OBD-II protocols. ELM327 also contains the bluetooth adapter. The ELM327 needs to be plugged to the OBD-II port.
 
+\section{Software Requirement Introduction}
+In order to collect the vehicle operation data, Torque(Lite), an Android application needs to be installed in the smartphone. Vehicle operation data will be stored in smartphone with Comma Separated Values (CSV) file format. Google Drive will be utilized to store the CSV file as a cloud storage.
+
+LibreOffice is applied in this project to modify the CSV file. KNIME Analytics Platform is used for clustering the collected vehicle operation data by performing k-Means Algorithm. The result will be visualized by using Tableau.
+
 \subsection{Torque(Lite)}
-Torque Lite version is a free android application and it is able to be installed in smartphone from Google Play Store. The application will communicate with the ELM327 through the bluetooth connection. The application will collect the data received from the ELM327 and  save the data into a .csv file in the smartphone. 
+Torque Lite version is a free android application and it is able to be installed in smartphone from Google Play Store. The application will communicate with the ELM327 through the bluetooth connection. The application will collect the data received from the ELM327 and  save the data into a CSV file in the smartphone. 
 
 After vehicle ignition is on, ELM327 need to connect with the smartphone that operating Torque via Bluetooth. Once the smartphone connected with the adapter, Torque will choose the protocol that matches with the OBD-II system. After the matching successed, Torque will start to read the sensor information from the ECU. In order to collect the GPS data, smartphone's location service is required to be enabled at the same time. When the smartphone received GPS signal and connected with the adapter, there are four flashing icons at the top right of the main screen will stay solid with blue color.
- 
-\section{KNIME Analytics Platform}
+
+\subsection{KNIME Analytics Platform}
 KNIME Analytics Platform is an open platform for data analysis. It is a perfect tool for data scientists. 
 
-KNIME Analytics Platform contain 1000 modules ,hundreds of ready-to-run examples, a set of integrated tools, and a list of advance algorithms available. User can build a machine learning experiment by dragging and dropping the related modules into the project. User needs to link and configure the module before execution. 
-
-%\subsection{Analysis of Driving Behavior in Longitudinal Direction Based on A Performance Index for Approach and Alienation}
-%Takahiro Wada, Shun'ichi Doi, Keisuke Imai, Hiroshi Kaneko, Naohiko Tsuru, and Kazuyoshi Isaji introduced a performance index for approach and alienation to analyze the drivers' behavior in longitudinal direction. The performance index is calculated based on the relative velocity and distance with the preceding car. The data is collected through a driver simulator. Based on the index, drivers' brake pattern can be analyzed.
-%
-%\subsection{Driving Behavior Analysis Based on Vehicle OBD Information and AdaBoost Algorithms}
-%Shi-Huang Chen, Jeng-Shyang Pan, and Kaixuan Lu proposed a driving behavior analysis based on AdaBoost Algorithms. The proposed method also based on vehicle OBD information. The proposed method colected the vehicle operation data, such as vehicle speed, engine speed, throttle position and engine load. The proposed method calculated the relative ratio of the vehicle speed and the engine speed, the relative ratio of the engine speed and throttle position, and engine load as three characteristics for the modeling usage. Then it uses the AdaBoost Algorithms to classify the driving behavior based on the three characteristics.
+KNIME Analytics Platform contain 1000 modules ,hundreds of ready-to-run examples, a set of integrated tools, and a list of advance algorithms available. User can build a machine learning experiment by dragging and dropping the related modules into the project. User needs to link and configure the module before execution.
