@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.19)  3 SEP 2016 09:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.19)  3 SEP 2016 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1659,7 +1659,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
 
-<image/accident.png, id=327, 1146.2825pt x 624.3325pt>
+<image/accident.png, id=333, 1146.2825pt x 624.3325pt>
 File: image/accident.png Graphic file (type png)
 
 <use image/accident.png>
@@ -1682,55 +1682,107 @@ l.19
 
 
 
-] [4] [5]
-Overfull \hbox (2.2956pt too wide) in paragraph at lines 47--47
+] [4]
+<image/HMM_flowchart.png, id=366, 255.95625pt x 285.065pt>
+File: image/HMM_flowchart.png Graphic file (type png)
+
+<use image/HMM_flowchart.png>
+Package pdftex.def Info: image/HMM_flowchart.png used on input line 35.
+(pdftex.def)             Requested size: 309.0pt x 344.16415pt.
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.40 
+      <./image/HMM_flowchart.png>]
+<image/BottomtoTop.png, id=373, 542.025pt x 427.5975pt>
+File: image/BottomtoTop.png Graphic file (type png)
+
+<use image/BottomtoTop.png>
+Package pdftex.def Info: image/BottomtoTop.png used on input line 42.
+(pdftex.def)             Requested size: 309.0pt x 243.77225pt.
+
+<image/ToptoBottom.png, id=374, 542.025pt x 414.54875pt>
+File: image/ToptoBottom.png Graphic file (type png)
+
+<use image/ToptoBottom.png>
+Package pdftex.def Info: image/ToptoBottom.png used on input line 49.
+(pdftex.def)             Requested size: 309.0pt x 236.33319pt.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.57 
+      <./image/BottomtoTop.png>]
+Overfull \hbox (2.2956pt too wide) in paragraph at lines 62--62
 []\T1/ptm/b/n/12 Driving Be-hav-ior Anal-y-sis Based on Ve-hi-cle OBD In-for-ma
 -tion and Ad-aBoost
  []
 
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 76--79
+<image/adaboost_flowchart.png, id=381, 631.35875pt x 305.14pt>
+File: image/adaboost_flowchart.png Graphic file (type png)
+
+<use image/adaboost_flowchart.png>
+Package pdftex.def Info: image/adaboost_flowchart.png used on input line 66.
+(pdftex.def)             Requested size: 309.0pt x 149.34297pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.68 \end{figure}
+                  <./image/ToptoBottom.png>] [8pdfTeX warning (ext4): destinati
+on with the same identifier (name{figure.2.4}) has been already used, duplicate
+ ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.77 
+      <./image/adaboost_flowchart.png>] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
+Underfull \hbox (badness 10000) in paragraph at lines 103--106
 
  []
 
-) [8] [9]
+) [10]
 \openout2 = `chap-theoritical.aux'.
 
- (./chap-theoritical.tex [10
+ (./chap-theoritical.tex [11
 
 
 
-] [11]) [12]
+] [12]) [13]
 \openout2 = `sample-chap-dummy.aux'.
 
  (./sample-chap-dummy.tex
-[13
+[14
 
 
 
-] [14]) [15]
+] [15]) [16]
 \openout2 = `sample-chap-conclusion.aux'.
 
- (./sample-chap-conclusion.tex) [16
+ (./sample-chap-conclusion.tex) [17
 
 
 
 ]
 \openout2 = `sample-appen-manual.aux'.
 
- (./sample-appen-manual.tex) [17
+ (./sample-appen-manual.tex) [18
 
 
 
 ]
 \openout2 = `sample-appen-try.aux'.
 
- (./sample-appen-try.tex) [18
+ (./sample-appen-try.tex) [19
 
 
 
@@ -1743,16 +1795,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
 )
 No file thesis.gls.
-[19
+[20
 
 
 
 ] (./thesis.ent)
 No file thesis.ind.
 No file own.bbl.
-[20
+[21
 
-] [21
+] [22
 
 ]
 \tf@toc=\write10
@@ -1773,13 +1825,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C6CBDD2B5A9695477455516BA27708D3;3629.
+(rerunfilecheck)             Checksum: 0E7AA99437C464B9EDC39368CB626EB0;3559.
  ) 
 Here is how much of TeX's memory you used:
- 16562 strings out of 493014
- 239403 string characters out of 6133351
- 433592 words of memory out of 5000000
- 19603 multiletter control sequences out of 15000+600000
+ 16585 strings out of 493014
+ 239933 string characters out of 6133351
+ 433591 words of memory out of 5000000
+ 19618 multiletter control sequences out of 15000+600000
  67184 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,11n,39p,1976b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1790,10 +1842,10 @@ ive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8ac.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (34 pages, 185974 bytes).
+Output written on thesis.pdf (35 pages, 293663 bytes).
 PDF statistics:
- 494 PDF objects out of 1000 (max. 8388607)
- 445 compressed objects within 5 object streams
- 103 named destinations out of 1000 (max. 500000)
- 422 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 512 PDF objects out of 1000 (max. 8388607)
+ 454 compressed objects within 5 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 434 words of extra memory for PDF output out of 10000 (max. 10000000)
 

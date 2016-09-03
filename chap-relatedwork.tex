@@ -31,9 +31,24 @@ The results were showed that the sleepy DBS can be recognized as sad emotion con
 \section{Driver Behaviour Analysis and Route Recognition by Hidden Markov Models}
 This paper was proposed by Sathyanarayana, Boyraz, and Hansen\citeyear{sath:2008}. This paper introduced the driver behaviour modeling using Hidden Markov Models (HMM) in Bottom-to-Top Approach and Top-to-Bottom Approach.
 
+\begin{figure}[hbt!]\centering
+\includegraphics[width=.75\textwidth]{image/HMM_flowchart}
+\caption{Hierarchy among the units of route recognition (Sathyanarayana et al., 2008)}
+\end{figure}
+
 In the Bottom-to-top approach, the maneuvers are the smallest unit to be recognized by the algorithms. The driver behavior can be discovered from the recognized maneuvers and be used to build the maneuver models. The multi-maneuver models use the maneuvers model to be built and finally become a complete route. The Bottom-to-Top approach is to detect the distratcion of driver based on the comparison of the neutral state vehicle operation data in the known maneuvers.
 
+\begin{figure}[hbt!]\centering
+\includegraphics[width=.75\textwidth]{image/BottomtoTop}
+\caption{Bottom-to-top approach for route model construction (Sathyanarayana et al., 2008)}
+\end{figure}
+
 In Top-to-Bottom approach, it is an opposite approach in driving behavior modeling. A single HMM is used to parse the route to the indvidual meaningful parts like maneuvers and states. The result of this approach is that the driver behavior in intersection will be identified by using three main clusters. The Top-to-Bottom approach is to recognized the route based on the vehicle operation data.
+
+\begin{figure}[hbt!]\centering
+\includegraphics[width=.75\textwidth]{image/ToptoBottom}
+\caption{Top-to-bottom approach for route model construction (Sathyanarayana et al., 2008)}
+\end{figure}
 
 \subsection{Data Collection}
 The proposed method used UTDrive Vehicle to collect the data. The UTDrive Vehicle is converted from a Toyota RAV4 vehicle. The UTDrive Vehicle is equiped camera to capture the driver and the road. The driver speech also been recorded by the equiped microphone in the vehicle. Distance sensor using laser and GPS for position measurement are also equiped. The CAN-Bus is used to collected the vehicle speed, steering wheel angle, and brake/gas information. The vehicle also equiped gas/brake pedal pressure sensors. 
@@ -46,6 +61,11 @@ Three different types of maneuvers (left turn, right turn, and lane change) were
 
 \section{Driving Behavior Analysis Based on Vehicle OBD Information and AdaBoost Algorithms}
 This paper was proposed by Shi-Huang et al.(2015). The researchers analyzed the drivers' behavior based on the on board diagnostic (OBD) information and using the AdaBoost Alogorithms to create the driving  behavior classification.Finally, the experimental results show the correctness of the proposed driving behavior analysis method has 99.8\% accuracy rate in various driving simulations.
+
+\begin{figure}[hbt!]\centering
+\includegraphics[width=.75\textwidth]{image/adaboost_flowchart}
+\caption{The flowchart of the proposed driving behavior analysis method.}
+\end{figure}
 
 \subsection{AdaBoost Algorithms}
 AdaBoost is a classification machine learning algorithm. The AdaBoost algorithms is to form a strong classifier by combining the a large number of weak classifier. There are three different types of AdaBoost algorithms. They are Gentle AdaBoost, Modest AdaBoost and Real AdaBoost.
