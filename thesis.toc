@@ -36,10 +36,10 @@
 \contentsline {section}{\numberline {3.1}Hardware Requirement Introduction}{12}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Vehicle OBD system}{12}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}ELM327}{13}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Software Requirement Introduction}{14}{section.3.2}
+\contentsline {section}{\numberline {3.2}Software Requirement Introduction}{13}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Torque(Lite)}{14}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}KNIME Analytic Platform}{15}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}K Means Algorithm}{15}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}K Means Algorithm}{16}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Tableau}{16}{subsection.3.2.4}
 \vspace *{-4pt}
 \contentsline {chapter}{\chapternumberline {4}\MakeUppercase {Design}}{17}{chapter.4}
@@ -66,7 +66,5 @@
 \contentsline {section}{\numberline {6.1}Introduction}{30}{section.6.1}
 \contentsline {section}{\numberline {6.2}Conclusion}{30}{section.6.2}
 \vspace *{-4pt}
-\contentsline {appendix}{\chapternumberline {A}\MakeUppercase {Appendix 2: What is appendix}}{31}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}\MakeUppercase {Meeting Log}}{31}{appendix.A}
 \contentsline {chapter}{REFERENCES}{32}{appendix*.9}
-\vspace *{-4pt}
-\contentsline {chapter}{\MakeUppercase {Notes}}{33}{appendix*.10}

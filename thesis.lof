@@ -8,7 +8,9 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Top-to-bottom approach for route model construction (Sathyanarayana et al., 2008)}}{8}{figure.2.3}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces The flowchart of the proposed driving behavior analysis method.}}{9}{figure.2.4}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Super Mini ELM327 Bluetooth OBD-II}}{13}{figure.3.1}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces OBD-II socket of the Toyota Vios year 2007 model.}}{13}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Super Mini ELM327 Bluetooth OBD-II.}}{14}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Screen-shot of the Torque(Lite).}}{15}{figure.3.3}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces The flowchart of the driver driving behavior profiling method. }}{17}{figure.4.1}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces The raw data file is opened in Google Drive.}}{18}{figure.4.2}
@@ -23,7 +25,6 @@
 \contentsline {figure}{\numberline {4.11}{\ignorespaces The completed workflow for classify the driving operation model.}}{25}{figure.4.11}
 \contentsline {figure}{\numberline {4.12}{\ignorespaces K Means Algorithm module setting.}}{26}{figure.4.12}
 \contentsline {figure}{\numberline {4.13}{\ignorespaces The result of the driver driving behavior profiling by using Tableau side-by-side bar with average point.}}{27}{figure.4.13}
-\addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.19)  7 SEP 2016 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.19)  7 SEP 2016 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1467,6 +1467,11 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language83
+LaTeX Info: Redefining \_ on input line 43.
+)
 (./myacronyms.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
@@ -1494,34 +1499,34 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 (./sample-chap-conclusion.aux) (./sample-appen-try.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 21.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 20.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 21.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 \AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring OFF on input line 20.
+Package hyperref Info: Link coloring OFF on input line 21.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1533,10 +1538,10 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 20.
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
+LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write9
 \openout9 = `thesis.out'.
@@ -1577,8 +1582,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 20.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 22.
+LaTeX Info: Redefining \selectfont on input line 21.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 23.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -1592,7 +1597,7 @@ arning (ext4): destination with the same identifier (name{page.i}) has been alr
 eady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 \makecoverandtitlepage
+l.23 \makecoverandtitlepage
                             [1
 
 
@@ -1600,47 +1605,47 @@ l.22 \makecoverandtitlepage
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 \makecoverandtitlepage
+l.23 \makecoverandtitlepage
                             [1
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 23.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 23
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 24.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 24
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 23
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 24
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 23
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 24
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 23
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 24
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 23.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 24.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.36008> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.40009> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 23.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 24.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -1648,7 +1653,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 25.
 \siglinelength=\skip290
  [3
 
@@ -1680,7 +1685,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
 
-<image/accident.png, id=424, 1146.2825pt x 624.3325pt>
+<image/accident.png, id=423, 1146.2825pt x 624.3325pt>
 File: image/accident.png Graphic file (type png)
 
 <use image/accident.png>
@@ -1706,78 +1711,142 @@ LaTeX Warning: Reference `gantt1' on page 3 undefined on input line 36.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.40 \include{sample-chap-intro}
+l.42 \include{sample-chap-intro}
                                 ]
 \openout2 = `chap-relatedwork.aux'.
 
- (./chap-relatedwork.tex [4
+ (./chap-relatedwork.tex
+Overfull \hbox (2.13144pt too wide) in paragraph at lines 8--9
+[]\T1/ptm/m/n/12 The ve-hi-cle op-er-a-tion data will di-rect re-flect the driv
+er driv-ing be-hav-ior. Ve-hi-cle
+ []
+
+[4
 
 
 
-] [5]
-<image/HMM_flowchart.png, id=464, 255.95625pt x 285.065pt>
+]
+Overfull \hbox (20.85037pt too wide) in paragraph at lines 28--29
+[]\T1/ptm/m/n/12 The re-sult shows that the sleepy DBS can be rec-og-nized as s
+ad emo-tion con-sis-tently.
+ []
+
+[5] <image/HMM_flowchart.png, id=463, 255.95625pt x 285.065pt>
 File: image/HMM_flowchart.png Graphic file (type png)
 
 <use image/HMM_flowchart.png>
-Package pdftex.def Info: image/HMM_flowchart.png used on input line 35.
+Package pdftex.def Info: image/HMM_flowchart.png used on input line 34.
 (pdftex.def)             Requested size: 309.0pt x 344.16415pt.
 
-<image/BottomtoTop.png, id=465, 542.025pt x 427.5975pt>
+Overfull \hbox (19.05125pt too wide) in paragraph at lines 38--39
+[]\T1/ptm/m/n/12 In the Bottom-to-top ap-proach, the ma-neu-vers are the small-
+est unit to be rec-og-nized
+ []
+
+
+Overfull \hbox (8.18909pt too wide) in paragraph at lines 38--39
+\T1/ptm/m/n/12 by the al-go-rithms. The driver be-hav-ior can be dis-cov-ered f
+rom the rec-og-nized ma-neu-vers
+ []
+
+<image/BottomtoTop.png, id=464, 542.025pt x 427.5975pt>
 File: image/BottomtoTop.png Graphic file (type png)
 
 <use image/BottomtoTop.png>
-Package pdftex.def Info: image/BottomtoTop.png used on input line 42.
+Package pdftex.def Info: image/BottomtoTop.png used on input line 41.
 (pdftex.def)             Requested size: 309.0pt x 243.77225pt.
  [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.44 \end{figure}
+l.43 \end{figure}
                   <./image/HMM_flowchart.png>]
-<image/ToptoBottom.png, id=472, 542.025pt x 414.54875pt>
+<image/ToptoBottom.png, id=471, 542.025pt x 414.54875pt>
 File: image/ToptoBottom.png Graphic file (type png)
 
 <use image/ToptoBottom.png>
-Package pdftex.def Info: image/ToptoBottom.png used on input line 49.
+Package pdftex.def Info: image/ToptoBottom.png used on input line 48.
 (pdftex.def)             Requested size: 309.0pt x 236.33319pt.
- [7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
-}) has been already used, duplicate ignored
+
+Overfull \hbox (1.03949pt too wide) in paragraph at lines 55--56
+[]\T1/ptm/m/n/12 The ex-per-i-ment con-ducted in two dif-fer-ent ar-eas in or-d
+er to col-lect two dif-fer-ent
+ []
+
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.57 
+l.56 
       <./image/BottomtoTop.png>]
-Overfull \hbox (2.2956pt too wide) in paragraph at lines 62--62
+Overfull \hbox (2.2956pt too wide) in paragraph at lines 61--61
 []\T1/ptm/b/n/12 Driving Be-hav-ior Anal-y-sis Based on Ve-hi-cle OBD In-for-ma
 -tion and Ad-aBoost
  []
 
-<image/adaboost_flowchart.png, id=479, 631.35875pt x 305.14pt>
+
+Overfull \hbox (36.06316pt too wide) in paragraph at lines 62--63
+\T1/ptm/m/n/12 the Ad-aBoost Al-go-rithms to cre-ate the driv-ing be-hav-ior cl
+as-si-fi-ca-tion.Finally, the ex-per-i-men-tal
+ []
+
+<image/adaboost_flowchart.png, id=478, 631.35875pt x 305.14pt>
 File: image/adaboost_flowchart.png Graphic file (type png)
 
 <use image/adaboost_flowchart.png>
-Package pdftex.def Info: image/adaboost_flowchart.png used on input line 66.
+Package pdftex.def Info: image/adaboost_flowchart.png used on input line 65.
 (pdftex.def)             Requested size: 309.0pt x 149.34297pt.
- [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
-}) has been already used, duplicate ignored
+
+Overfull \hbox (17.49051pt too wide) in paragraph at lines 70--71
+[]\T1/ptm/m/n/12 AdaBoost is a clas-si-fi-ca-tion ma-chine learn-ing al-go-rith
+m. The Ad-aBoost al-go-rithms
+ []
+
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.72 
-      <./image/ToptoBottom.png>] [9pdfTeX warning (ext4): destination with the 
-same identifier (name{figure.2.4}) has been already used, duplicate ignored
+l.71 
+      <./image/ToptoBottom.png>]
+Overfull \hbox (3.30316pt too wide) in paragraph at lines 73--74
+\T1/ptm/m/n/12 as the OBD-II to Blue-tooth adapter to col-lect the ve-hi-cle op
+-er-a-tion in-for-ma-tion. OBD-II
+ []
+
+
+Overfull \hbox (2.0186pt too wide) in paragraph at lines 73--74
+\T1/ptm/m/n/12 min-i-mum level,the OBD-II sys-tem of the par-tic-u-lar ve-hi-cl
+e will gen-er-ate the Di-ag-nos-tic
+ []
+
+
+Overfull \hbox (3.78386pt too wide) in paragraph at lines 73--74
+\T1/ptm/m/n/12 dash-board. In or-der to com-mu-ni-cate with the OBD-II sys-tem 
+of the ve-hi-cle, EZ-SCAN5
+ []
+
+
+Overfull \hbox (1.00002pt too wide) in paragraph at lines 75--76
+\T1/ptm/m/n/12 char-ac-ter-is-tic curve, the pro-posed method de-vel-oped two c
+ri-te-ria for the data col-lec-tion. 
+ []
+
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.77 
+l.76 
       <./image/adaboost_flowchart.png>] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 96--99
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--106
+Underfull \hbox (badness 10000) in paragraph at lines 102--105
 
  []
 
@@ -1789,31 +1858,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--106
 
 
 ]
-Overfull \hbox (0.85573pt too wide) in paragraph at lines 14--15
+<image/obd.jpg, id=513, 1927.2pt x 1445.4pt>
+File: image/obd.jpg Graphic file (type jpg)
+ <use image/obd.jpg>
+Package pdftex.def Info: image/obd.jpg used on input line 14.
+(pdftex.def)             Requested size: 309.0pt x 231.73187pt.
+
+Overfull \hbox (0.85573pt too wide) in paragraph at lines 20--21
 \T1/ptm/m/n/12 OBD-II port of the ve-hi-cle. The ELM327 sup-ports most of OBD-I
 I pro-to-cols. ELM327
  []
 
-<image/ELM327.jpeg, id=513, 722.7pt x 963.6pt>
+<image/ELM327.jpeg, id=514, 722.7pt x 963.6pt>
 File: image/ELM327.jpeg Graphic file (type jpg)
  <use image/ELM327.jpeg>
-Package pdftex.def Info: image/ELM327.jpeg used on input line 17.
-(pdftex.def)             Requested size: 309.0pt x 412.00209pt.
- [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-1}) has been already used, duplicate ignored
+Package pdftex.def Info: image/ELM327.jpeg used on input line 23.
+(pdftex.def)             Requested size: 254.62497pt x 339.5pt.
+
+Overfull \hbox (12.27164pt too wide) in paragraph at lines 28--29
+[]\T1/ptm/m/n/12 In or-der to col-lect the ve-hi-cle op-er-a-tion data, Torque(
+Lite), an An-droid ap-pli-ca-tion
+ []
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.23 
-      <./image/ELM327.jpeg>] [14] [15]) [16]
+l.33 
+      <./image/obd.jpg>]
+Overfull \hbox (13.7676pt too wide) in paragraph at lines 34--35
+\T1/ptm/m/n/12 An-a-lytic Plat-form is used for clus-ter-ing the col-lected ve-
+hi-cle op-er-a-tion data by per-form-ing
+ []
+
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.40 
+      <./image/ELM327.jpeg>] <image/torque.png, id=525, 1084.05pt x 1927.2pt>
+File: image/torque.png Graphic file (type png)
+
+<use image/torque.png>
+Package pdftex.def Info: image/torque.png used on input line 42.
+(pdftex.def)             Requested size: 190.96872pt x 339.5pt.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.51 
+      <./image/torque.png>]) [16]
 \openout2 = `sample-chap-dummy.aux'.
 
  (./sample-chap-dummy.tex
-<image/flowchart.png, id=537, 236.885pt x 453.695pt>
+<image/flowchart.png, id=540, 236.885pt x 453.695pt>
 File: image/flowchart.png Graphic file (type png)
  <use image/flowchart.png>
 Package pdftex.def Info: image/flowchart.png used on input line 7.
 (pdftex.def)             Requested size: 141.80678pt x 271.59586pt.
+
+Overfull \hbox (0.16333pt too wide) in paragraph at lines 13--14
+[]\T1/ptm/m/n/12 In this project, few drivers have been in-vited to par-tic-i-p
+ate in the data col-lec-tion.
+ []
 
 [17
 
@@ -1826,7 +1936,12 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.14 
       <./image/flowchart.png>]
-<image/GDfile.png, id=544, 1284.8pt x 720.6925pt>
+Overfull \hbox (9.94371pt too wide) in paragraph at lines 15--16
+[]\T1/ptm/m/n/12 Vehicle op-er-a-tion data will be recorded in ev-ery sec-ond. 
+The drivers are re-quested
+ []
+
+<image/GDfile.png, id=547, 1284.8pt x 720.6925pt>
 File: image/GDfile.png Graphic file (type png)
  <use image/GDfile.png>
 Package pdftex.def Info: image/GDfile.png used on input line 18.
@@ -1838,13 +1953,13 @@ Package pdftex.def Info: image/GDfile.png used on input line 18.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.26 
-      <./image/GDfile.png>] <image/GEMapView.png, id=551, 1284.8pt x 803.0pt>
+      <./image/GDfile.png>] <image/GEMapView.png, id=554, 1284.8pt x 803.0pt>
 File: image/GEMapView.png Graphic file (type png)
 
 <use image/GEMapView.png>
 Package pdftex.def Info: image/GEMapView.png used on input line 28.
 (pdftex.def)             Requested size: 309.0pt x 193.11603pt.
- <image/GEStreetView.png, id=553, 1284.8pt x 803.0pt>
+ <image/GEStreetView.png, id=556, 1284.8pt x 803.0pt>
 File: image/GEStreetView.png Graphic file (type png)
 
 <use image/GEStreetView.png>
@@ -1863,21 +1978,31 @@ l.42
                                                   \fi \fi 
 l.42 
       <./image/GEMapView.png> <./image/GEStreetView.png>]
-<image/LOspeedtest.png, id=564, 1284.8pt x 803.0pt>
+Overfull \hbox (8.43929pt too wide) in paragraph at lines 43--44
+\T1/ptm/m/n/12 in-ter-sec-tion. This ac-tion will in-crease the po-ten-tial of 
+ac-ci-dent occurances.[][]Kulanthayan,
+ []
+
+<image/LOspeedtest.png, id=567, 1284.8pt x 803.0pt>
 File: image/LOspeedtest.png Graphic file (type png)
 
 <use image/LOspeedtest.png>
 Package pdftex.def Info: image/LOspeedtest.png used on input line 48.
 (pdftex.def)             Requested size: 309.0pt x 193.11603pt.
 
-<image/datapreprocessing.png, id=566, 1284.8pt x 803.0pt>
+<image/datapreprocessing.png, id=569, 1284.8pt x 803.0pt>
 File: image/datapreprocessing.png Graphic file (type png)
 
 <use image/datapreprocessing.png>
 Package pdftex.def Info: image/datapreprocessing.png used on input line 58.
 (pdftex.def)             Requested size: 309.0pt x 193.11603pt.
- [20]
-<image/KNIMEconcatenate.png, id=575, 1284.8pt x 803.0pt>
+
+Overfull \hbox (8.47955pt too wide) in paragraph at lines 64--65
+[]\T1/ptm/m/n/12 All the pieces of pre-pro-cessed data for each driver are re-q
+uired to be con-cate-nated
+ []
+
+[20] <image/KNIMEconcatenate.png, id=578, 1284.8pt x 803.0pt>
 File: image/KNIMEconcatenate.png Graphic file (type png)
 
 <use image/KNIMEconcatenate.png>
@@ -1896,7 +2021,12 @@ l.74
                                                   \fi \fi 
 l.74 
       <./image/LOspeedtest.png> <./image/datapreprocessing.png>]
-<image/KNIMEcorrelation.png, id=583, 556.0775pt x 500.87125pt>
+Overfull \hbox (9.13506pt too wide) in paragraph at lines 76--77
+\T1/ptm/m/n/12 clus-ter-ing. Cor-re-la-tion mod-ule is im-ple-mented to help fe
+a-tures se-lec-tion. The cor-re-la-tion
+ []
+
+<image/KNIMEcorrelation.png, id=586, 556.0775pt x 500.87125pt>
 File: image/KNIMEcorrelation.png Graphic file (type png)
 
 <use image/KNIMEcorrelation.png>
@@ -1909,38 +2039,43 @@ Package pdftex.def Info: image/KNIMEcorrelation.png used on input line 79.
                                                   \fi \fi 
 l.86 
       <./image/KNIMEconcatenate.png>]
-<image/cluster.png, id=590, 465.74pt x 452.69125pt>
+Overfull \hbox (5.58653pt too wide) in paragraph at lines 88--89
+[]\T1/ptm/m/n/12 After the K Means Al-go-rithm mod-ule ex-e-cu-tion, three clus
+-ters will be gen-er-ated.
+ []
+
+<image/cluster.png, id=593, 465.74pt x 452.69125pt>
 File: image/cluster.png Graphic file (type png)
  <use image/cluster.png>
 Package pdftex.def Info: image/cluster.png used on input line 91.
 (pdftex.def)             Requested size: 211.93335pt x 206.0pt.
-
-Overfull \hbox (0.43863pt too wide) in paragraph at lines 97--98
-[]\T1/ptm/m/n/12 String Re-placer mod-ule pro-vided by KN-IME An-a-lytic Plat-f
-orm is im-ple-mented
- []
 
 [23pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.98 
-      <./image/KNIMEcorrelation.png>]
-<image/clusterresult.png, id=598, 1284.8pt x 803.0pt>
+l.94 \end{figure}
+                  <./image/KNIMEcorrelation.png>]
+Overfull \hbox (0.43863pt too wide) in paragraph at lines 97--98
+[]\T1/ptm/m/n/12 String Re-placer mod-ule pro-vided by KN-IME An-a-lytic Plat-f
+orm is im-ple-mented
+ []
+
+<image/clusterresult.png, id=601, 1284.8pt x 803.0pt>
 File: image/clusterresult.png Graphic file (type png)
 
 <use image/clusterresult.png>
 Package pdftex.def Info: image/clusterresult.png used on input line 102.
 (pdftex.def)             Requested size: 329.58992pt x 206.0pt.
 
-<image/KNIMEfile.png, id=601, 1284.8pt x 803.0pt>
+<image/KNIMEfile.png, id=604, 1284.8pt x 803.0pt>
 File: image/KNIMEfile.png Graphic file (type png)
  <use image/KNIMEfile.png>
 Package pdftex.def Info: image/KNIMEfile.png used on input line 112.
 (pdftex.def)             Requested size: 309.0pt x 193.11603pt.
 
-<image/KNIMEkmean.png, id=602, 1284.8pt x 803.0pt>
+<image/KNIMEkmean.png, id=605, 1284.8pt x 803.0pt>
 File: image/KNIMEkmean.png Graphic file (type png)
  <use image/KNIMEkmean.png>
 Package pdftex.def Info: image/KNIMEkmean.png used on input line 118.
@@ -1981,7 +2116,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
                                                   \fi \fi 
 l.171 
        <./image/KNIMEkmean.png>]
-<image/Tresult.png, id=622, 1284.8pt x 803.0pt>
+<image/Tresult.png, id=625, 1284.8pt x 803.0pt>
 File: image/Tresult.png Graphic file (type png)
  <use image/Tresult.png>
 Package pdftex.def Info: image/Tresult.png used on input line 173.
@@ -1992,27 +2127,39 @@ Package pdftex.def Info: image/Tresult.png used on input line 173.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.43 \include{sample-chap-dummy}
+l.45 \include{sample-chap-dummy}
                                 pdfTeX warning (ext4): destination with the sam
 e identifier (name{figure.4.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.43 \include{sample-chap-dummy}
+l.45 \include{sample-chap-dummy}
                                  <./image/Tresult.png>]
 \openout2 = `chap-implementation-plan.aux'.
 
 
-(./chap-implementation-plan.tex [28
+(./chap-implementation-plan.tex
+Overfull \hbox (20.6237pt too wide) in paragraph at lines 4--5
+[]\T1/ptm/m/n/12 In this cur-rent phase of the project, the route of drivers dr
+ove through is in-con-sis-tent.
+ []
+
+[28
 
 
 
-]) [29pdfTeX warning (ext4): destination with the same identifier (name{table.5
-.1}) has been already used, duplicate ignored
+]
+Overfull \hbox (14.191pt too wide) in paragraph at lines 18--19
+[]\T1/ptm/m/n/12 Naive Bayes is one of the most ef-fi-cient and ef-fec-tive ma-
+chine learn-ing al-go-rithms.
+ []
+
+) [29pdfTeX warning (ext4): destination with the same identifier (name{table.5.
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.44 \include{chap-implementation-plan}
+l.46 \include{chap-implementation-plan}
                                        ]
 \openout2 = `sample-chap-conclusion.aux'.
 
@@ -2042,16 +2189,13 @@ LaTeX Font Info:    Try loading font information for T1+lmvtt on input line 111
 File: t1lmvtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 No file thesis.gls.
+No file thesis.ind.
+No file own.bbl.
 [32
 
 
 
-] (./thesis.ent)
-No file thesis.ind.
-No file own.bbl.
-[33
-
-] [34
+] [33
 
 ]
 \tf@toc=\write10
@@ -2063,27 +2207,27 @@ No file own.bbl.
 \tf@lof=\write12
 \openout12 = `thesis.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
  (./thesis.aux (./sample-chap-intro.aux) (./chap-relatedwork.aux)
 (./chap-theoritical.aux) (./sample-chap-dummy.aux)
 (./chap-implementation-plan.aux) (./sample-chap-conclusion.aux)
 (./sample-appen-try.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: EEB8A51AEE640D4132BFF55A44DF43D3;4360.
+(rerunfilecheck)             Checksum: A059106FAEB65469154B90ADABFBBB05;4292.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 17258 strings out of 493014
- 248898 string characters out of 6133351
- 451581 words of memory out of 5000000
- 20216 multiletter control sequences out of 15000+600000
- 71878 words of font info for 111 fonts, out of 8000000 for 9000
+ 17298 strings out of 493014
+ 249546 string characters out of 6133351
+ 452561 words of memory out of 5000000
+ 20254 multiletter control sequences out of 15000+600000
+ 69156 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,12n,39p,1976b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
@@ -2095,10 +2239,10 @@ ts/type1/urw/helvetic/uhvr8ac.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on thesis.pdf (46 pages, 5084523 bytes).
+Output written on thesis.pdf (45 pages, 5553026 bytes).
 PDF statistics:
- 729 PDF objects out of 1000 (max. 8388607)
- 630 compressed objects within 7 object streams
+ 728 PDF objects out of 1000 (max. 8388607)
+ 628 compressed objects within 7 object streams
  153 named destinations out of 1000 (max. 500000)
- 600 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 602 words of extra memory for PDF output out of 10000 (max. 10000000)
 
