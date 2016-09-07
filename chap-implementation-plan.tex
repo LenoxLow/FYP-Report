@@ -1,0 +1,56 @@
+%!TEX ROOT = thesis.tex
+\chapter{Implementation Plan}
+\section{Project Problem Encounter}
+In this current phase of the project, the route of drivers drove through is inconsistent. It caused the speed limit condition is hard to be determined. It needs a lot of time to check the road condition and the speed limit at the particular path of the route by using Google Street View and Google Earth. The usage of speed limit Application Programming Interface (API) is not free. It is also unavailable to use without an Asset Tracking License.
+
+\section{Data collection}
+In the next phase of the project, there are three routes will be selected. The drivers will be requested to drive through all the routes. After the driving session, a proper questionnaire will be required to fill up by the driver. The questionnaire will ask about the driver basic detail and some driving history or background.
+
+At least a month will be spent to collect the data in the next project phase. In order to train the machine for classifying the driver driving behavior, the amount of the data collected in the current project phase is still not enough.
+
+\section{Data Analysis}
+Since the paths for driving session is consistent, the work for labeling the road condition will be reduced. A proper speed limit labeling will able to be implemented. For the speed test feature, some cases are allowed for drivers to exceed the speed limit. For example, Driver A wants to overtake Driver B's car as Driver B is driving dangerously or the Driver B is drunk. The Driver A behavior will be considered as low risk, although Driver A exceeded the speed limit. A lot of situations need to be considered and identified in the next phase of project.
+
+\section{Machine Learning Technique Implementation}
+Naive Bayes algorithms will be implemented in the next phase of project. The machine will be trained to classify the driver driving behavior by using the Naive Bayes algorithms. 
+
+\subsection{Naive Bayes classifier}
+Naive Bayes is one of the most efficient and effective machine learning algorithms. It is a supervised learning algorithm. It assumes that the features are independent. Each features contribute to the probability to identify the classification independently. For example, a fruit can be classified as an apple based on the red color, circle shape, and the $6cm$ in diameter. Although the features exist relationship among themselves, the features contribute independently in the probability that to identify the fruit is apple\cite{sunil:2015}. 
+
+\section{Project Plan of next project phase}
+In the next project phase, data collection is required a lot of time to be done. The papers related to Naive Bayes algorithm are needed to be reviewed in order to improve the understanding of the algorithms. The next project phase timeline is shown in Table \ref{tbl:gantt2}.
+
+\begin{table}[h!]
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+Task \textbackslash Week & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 \\
+
+\hline
+Literature Review & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & & & & & & & &\\
+
+\hline
+Data Acquisition &  \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & & & & & & \\
+
+\hline
+Data Analysis using KNIME & & & & & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & & & & & \\
+
+\hline
+Driver Driving Behavior Profiling & & & & & & & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} &  & &\\
+
+\hline
+Data Training using KNIME & & & & & & & & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} &  & \\
+
+\hline
+Analyzing Experimental Result & & & & & & & & & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & \\
+
+\hline
+Documentation and Report & & & & & & & & & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} \\
+
+\hline
+Report Submission & & & & & & & & & & & \cellcolor[HTML]{000000}\\
+
+\hline
+\end{tabular}
+\label{tbl:gantt2}
+\caption{Project timeline of Final Year Project II for Trimester 2 2016/2017}
+\end{table}

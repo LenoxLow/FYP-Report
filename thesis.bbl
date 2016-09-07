@@ -64,7 +64,7 @@ Kamaruddin, N.%
 \bibitem [\protect \citeauthoryear {%
 Kulanthayan%
 , Phang%
-\BCBL {}\ \BBA {} Hayati%
+\BCBL {}\ \BBA {} Hayaticoncatenate%
 }{%
 Kulanthayan%
 \ \protect \BOthers {.}}{%
@@ -76,7 +76,7 @@ kulanthayan:phang:hayati:2007}%
 \begin{APACrefauthors}%
 Kulanthayan, S.%
 , Phang, W.%
-\BCBL {}\ \BBA {} Hayati, K.%
+\BCBL {}\ \BBA {} Hayaticoncatenate, K.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -87,6 +87,55 @@ Kulanthayan, S.%
 \newblock
 \BIn{} \APACrefbtitle {IATSS Research} {Iatss research}\ (\BVOL~31,
   \BPG~67-73).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ng%
+}{%
+Ng%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+andrew:2016}
+\APACinsertmetastar {%
+andrew:2016}%
+\begin{APACrefauthors}%
+Ng, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {Unsupervised Learning.} {Unsupervised learning.}
+\newblock
+\begin{APACrefURL} \url{https://www.coursera.org/learn/machine-learning}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ray%
+}{%
+Ray%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+sunil:2015}
+\APACinsertmetastar {%
+sunil:2015}%
+\begin{APACrefauthors}%
+Ray, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {6 Easy Steps to Learn Naive Bayes Algorithm (with code in
+  Python).} {6 easy steps to learn naive bayes algorithm (with code in
+  python).}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

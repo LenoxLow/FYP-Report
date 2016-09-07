@@ -7,7 +7,7 @@
 Currently, the amount of vehicles on the road increases every year in Malaysia.  
 It is because the local brand car is affordable by many low income level household. The manufacturer also provided promotions to attract people to buy car. So that, the number of non-professional driver rapidly increased in Malaysia. Most of the drivers are unskilled and lack of awareness on the traffic safety and vehicle condition. The driver's personal factors have become the main reason of causing the traffic incidents.
 
-According to the general road accident data in Malaysia took from Malaysian Institute of Road Safety Research (MIROS) offcial website shown in Figure \ref{fig:accident}, the Malaysia government put effort on reducing the amount of traffic incidents by introducing the new traffic laws and speed track system. However, the number of cases of road deaths does not drop significantly. 
+According to the general road accident data in Malaysia took from Malaysian Institute of Road Safety Research (MIROS) official website shown in Figure \ref{fig:accident}, the Malaysia government put effort on reducing the amount of traffic incidents by introducing the new traffic laws and speed track system. However, the number of cases of road deaths does not drop significantly. 
 
 \begin{figure}[hbt!]\centering
 \includegraphics[width=.75\textwidth]{image/accident}
@@ -15,19 +15,54 @@ According to the general road accident data in Malaysia took from Malaysian Inst
 \label{fig:accident}
 \end{figure}
 
-The driver characteristics and the occurence of traffic incident is interrelated. To further reduce the number of accidents, the safety equipment of the vehicle need to be improved as well as the road regulation, but also pay attention on driver behaviour. The behaviour of the driver is hard to be identified. The driver behavior is affected by environment, vehicle condition and the mental or physical state. One way to identify driver behaviour is using the vehicle operation data.
+The driver characteristics and the occurrence of traffic incident is interrelated. To further reduce the number of accidents, the safety equipment of the vehicle need to be improved as well as the road regulation, but also pay attention on driver behavior. The behavior of the driver is hard to be identified. The driver behavior is affected by environment, vehicle condition and the mental or physical state. One way to identify driver behavior is using the vehicle operation data.
 
 \section{Project Objective}
 \begin{enumerate}
 \item To identify the features that contribute to the accuracy of the classification of the driver behavior analysis from the vehicle operation data.
-\item To profile the drivers based on the vehicle operation data. 
+\item To classify each vehicle operation records.
+\item To profile the drivers based on the labeled vehicle operation data.
 \end{enumerate}
 
 \section{Research Motivation}
-This project is designed to capture actual driving behavior data by using sensor. The driver behavior will be analysed based on the vehicle operation data collected from the sensor plugged in the particular vehicle.  
-This project will use the ELM327 as a device that communicates with the vehicle OBD-II interface. The GPS data and vehicle operation data will be collected through the application Torque(Lite) via bluetooth. 
-The performance index for approach and alienation will be used in this projetc as a feature to analyze the drivers' driving behaviour. The driver who exceed the speed limit can be detected by using the vehicle speed and the GPS location information.
+This project is designed to capture actual driving behavior data by using sensor. The driver behavior will be analyzed based on the vehicle operation data collected from the sensor plugged in the particular vehicle.  
+This project will use the ELM327 as a device that communicates with the vehicle OBD-II interface. The GPS data and vehicle operation data will be collected through the application Torque(Lite) via Bluetooth. 
+The performance index for approach and alienation will be used in this project as a feature to analyze the drivers' driving behavior. The driver who exceed the speed limit can be detected by using the vehicle speed and the GPS location information.
 
 \section{Project Scope}
-This project focuses on the driver behavior profiling. The vehicle operation data will be collected and pre-processed before execute the analysis. Each driver is required to drive the car at least 8 minutes for vehicle operation data collection. The data will be recorded in every second. For each driver, there are at least 480 records in the vehicle operation data file. After using the machine learning technique to classified the drivers, the drivers will be categorized to three classes. The classes are low risk, medium risk and high risk. 
- 
+This project focuses on the driver behavior profiling. The vehicle operation data will be collected and preprocessed before execute the analysis. Each driver is required to drive the car at least 8 minutes for vehicle operation data collection. The data will be recorded in every second. For each driver, there are at least 480 records in the vehicle operation data file. After using the machine learning technique to classified the drivers, the drivers will be categorized to three classes. The classes are low risk, medium risk and high risk. 
+
+\section{Project Plan}
+Proper time and resource management is important to complete this project. Table \ref{gantt1} shows a brief description of the project timeline.
+
+\begin{table}[h!]
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+Task \textbackslash Week & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 \\
+
+\hline
+Data Acquisition &  \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & & & & & & \\
+
+\hline
+Literature Review & & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & & & & & & \\
+
+\hline
+Data Analysis using KNIME & & & & & & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & & & \\
+
+\hline
+Driver Driving Behavior Profiling & & & & & & & & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} &  & \\
+
+\hline
+Analyzing Experimental Result & & & & & & & & & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & \\
+
+\hline
+Documentation and Report & & & & & & & & & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} & \cellcolor[HTML]{000000} \\
+
+\hline
+Report Submission & & & & & & & & & & & \cellcolor[HTML]{000000}\\
+
+\hline
+\end{tabular}
+\label{tbl:gantt1}
+\caption{Project timeline of Final Year Project I for Trimester 1 2016/2017}
+\end{table}

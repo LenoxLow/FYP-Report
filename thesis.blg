@@ -6,8 +6,8 @@ A level-1 auxiliary file: sample-chap-intro.aux
 A level-1 auxiliary file: chap-relatedwork.aux
 A level-1 auxiliary file: chap-theoritical.aux
 A level-1 auxiliary file: sample-chap-dummy.aux
+A level-1 auxiliary file: chap-implementation-plan.aux
 A level-1 auxiliary file: sample-chap-conclusion.aux
-A level-1 auxiliary file: sample-appen-manual.aux
 A level-1 auxiliary file: sample-appen-try.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -19,45 +19,50 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
+Warning--entry type for "sunil:2015" isn't style-file defined
+--line 4 of file references.bib
+Warning--entry type for "andrew:2016" isn't style-file defined
+--line 11 of file references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 4 entries,
+You've used 6 entries,
             6951 wiz_defined-function locations,
-            1304 strings with 11651 characters,
-and the built_in function-call counts, 9919 in all, are:
-= -- 1324
-> -- 100
-< -- 428
-+ -- 438
-- -- 8
-* -- 579
-:= -- 1705
-add.period$ -- 24
-call.type$ -- 4
-change.case$ -- 80
+            1313 strings with 11910 characters,
+and the built_in function-call counts, 13313 in all, are:
+= -- 1830
+> -- 120
+< -- 546
++ -- 546
+- -- 12
+* -- 737
+:= -- 2207
+add.period$ -- 32
+call.type$ -- 6
+change.case$ -- 114
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 225
-empty$ -- 343
-format.name$ -- 120
-if$ -- 1946
+cite$ -- 12
+duplicate$ -- 287
+empty$ -- 479
+format.name$ -- 148
+if$ -- 2670
 int.to.chr$ -- 0
-int.to.str$ -- 12
+int.to.str$ -- 18
 missing$ -- 0
-newline$ -- 110
-num.names$ -- 32
-pop$ -- 248
+newline$ -- 154
+num.names$ -- 48
+pop$ -- 286
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 32
 quote$ -- 0
-skip$ -- 646
+skip$ -- 1000
 stack$ -- 0
-substring$ -- 542
-swap$ -- 149
-text.length$ -- 47
+substring$ -- 660
+swap$ -- 179
+text.length$ -- 51
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 576
+type$ -- 880
 warning$ -- 0
-while$ -- 57
+while$ -- 67
 width$ -- 0
-write$ -- 142
+write$ -- 190
+(There were 2 warnings)
