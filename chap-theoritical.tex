@@ -25,13 +25,13 @@ Super Mini ELM327 Bluetooth OBD-II is an OBD-II scanning tool produced by ELM El
 \end{figure}
 
 \section{Software Requirement Introduction}
-In order to collect the vehicle operational data, Torque(Lite), an Android application needs to be installed in the smartphone. Vehicle operational data will be stored in smartphone with Comma Separated Values (CSV) file format. Google Drive will be utilized to store the CSV file as a cloud storage.
+In order to collect the vehicle telemetry data, Torque(Lite), an Android application needs to be installed in the smartphone. Vehicle telemetry data will be stored in smartphone with Comma Separated Values (CSV) file format. Google Drive will be utilized to store the CSV file as a cloud storage.
 
 In order to add on the new features to the dataset, Google Sheet and LibreOffice are used for modifying the dataset. 
 
 Google Earth are used for verify the road structure that drivers drove through. The Torque(Lite) can convert the CSV file to Keyhole Markup Language (KML) file.
  
-LibreOffice are applied in this project to do the final modification of the dataset. After the modification, the dataset will be stored as CSV format file. KNIME Analytic Platform is used for clustering the collected vehicle operational data by performing K Means Algorithm. The result will be visualized by using Tableau.
+LibreOffice are applied in this project to do the final modification of the dataset. After the modification, the dataset will be stored as CSV format file. KNIME Analytics Platform is used for clustering the collected vehicle telemetry data by performing K Means Algorithm. The result will be visualized by using Tableau.
 
 \subsection{Torque(Lite)}
 Torque Lite version is a free android application and it is able to be installed in smartphone from Google Play Store. The application will communicate with the ELM327 through the Bluetooth connection. The application will collect the data received from the ELM327 and  save the data into a CSV file in the smartphone. 
@@ -44,14 +44,15 @@ After vehicle ignition is on, ELM327 need to connect with the smartphone that op
 \label{fig:torque}
 \end{figure}
 
-\subsection{KNIME Analytic Platform}
-KNIME Analytic Platform is an open platform for data analysis. It is a perfect tool for data scientists. The version of KNIME Analytic Platform used in this project is version 3.2.0. 
+\subsection{KNIME Analytics Platform}
+KNIME stands for KoNstanz Information MinEr. KNIME Analytics Platform is a product of KNIME.
+KNIME Analytics Platform is an open platform for data analysis. It is a perfect tool for data scientists. The version of KNIME Analytics Platform used in this project is version 3.2.0. 
 
-KNIME Analytic Platform contain 1000 modules, hundreds of ready-to-run examples, a set of integrated tools, and a list of advance algorithms available. User can build a machine learning experiment by dragging and dropping the related modules into the project. User needs to link and configure the module before execution.
+KNIME Analytics Platform contain 1000 modules, hundreds of ready-to-run examples, a set of integrated tools, and a list of advance algorithms available. User can build a machine learning experiment by dragging and dropping the related modules into the project. User needs to link and configure the module before execution.
 
-This project uses the module of the KNIME Analytic to complete the data preprocessing and driving behavior modeling. K Means algorithm module is used in this project to classify the driving behavior.
+This project uses the module of the KNIME Analytics Platform to complete the data preprocessing and driving behaviour modelling. K Means algorithm module is used in this project to classify the driving behaviour.\cite{knime}
 
-\subsection{K Means Algorithm}
+\subsection{K Means Algorissthm}
 K Means algorithm is a popular clustering algorithm. The algorithm is used for automatically grouping data into cohesive 'clusters'. Few points will be initialized by choosing the training examples randomly. The number of the points is determined by the number of clusters wanted to be generated. For example, in order to get three clusters as output, three points is required to be initialized in the first step. The points are called cluster centroids \cite{andrew:2016}.
 
 The second step of the algorithm is an inner loop for performing two functions. The functions are shown below:

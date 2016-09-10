@@ -5,7 +5,7 @@ Various literature have introduced driving behaviour analysis. Driving behavior 
 
 The driving environment will also affect the driver behaviour. Some of the drivers will pass through the intersection without stopping and observing the surrounding condition. The decision of drivers for passing through certain road condition will reflect the drivers' driving behaviour.
 
-The vehicle operational data will directly reflect the driving behavior of the driver. Vehicle speed can determine the current driving state whether accelerating or remaining safe. Engine speed can determine the effciency of the vehicle operation. The number of fuel sent to the engine is determined by the throttle position. Suitable throttle position will ensure that the engine operates efficiently. Inappropriate throttle position will cause incomplete combustion of fuel and air pollution.\cite{chen:pan:lu:2015}   
+The OBD-II vehicle information data will directly reflect the driving behavior of the driver. Vehicle speed can determine the current driving state whether accelerating or remaining safe. Engine speed can determine the effciency of the vehicle operation. The number of fuel sent to the engine is determined by the throttle position. Suitable throttle position will ensure that the engine operates efficiently. Inappropriate throttle position will cause incomplete combustion of fuel and air pollution.\cite{chen:pan:lu:2015}   
 
 \section{Driver Behaviour Analysis through Speech Emotional Understanding}
 This paper was proposed by Kamaruddin and Wahab\citeyear{kamaruddin:wahab:2010}. The researchers analysed the driver behaviour state (DBS) based on the emotion of the driver when the driver was driving. The emotion of the driver can be detected through speech. 
@@ -25,7 +25,7 @@ This proposed method collected data from 11 adults (3 female and 8 male). The dr
 A microphone is embedded in the vehicle to collect the speech of the driver while driving. The experiments to analysed the three DBS of talking, laughing, and sleepy were conducted. The researchers use the Berlin dataset and NAW dataset to relate the three DBS with the angry, happy, and sad emotion.
 
 \subsection{Experimental Result}
-The result shows that the sleepy DBS can be recognized as sad emotion consistently. However, the talking and laughing DBS gave mixed results. It means that more work need to be conducted for better classification of the two DBS. The accuracy of sleepy emotion detection is up to 65\% using the proposed speech emotion recognition system.
+The result shows that the sleepy DBS can be recognised as sad emotion consistently. However, the talking and laughing DBS gave mixed results. It means that more work need to be conducted for better classification of the two DBS. The accuracy of sleepy emotion detection is up to 65\% using the proposed speech emotion recognition system.
 
 \section{Driver Behaviour Analysis and Route Recognition by Hidden Markov Models}
 This paper was proposed by Sathyanarayana, Boyraz, and Hansen\citeyear{sath:2008}. This paper introduced the driver behaviour modelling using Hidden Markov Models (HMM) in Bottom-to-Top Approach and Top-to-Bottom Approach.
@@ -35,14 +35,14 @@ This paper was proposed by Sathyanarayana, Boyraz, and Hansen\citeyear{sath:2008
 \caption{Hierarchy among the units of route recognition (Sathyanarayana et al., 2008)}
 \end{figure}
 
-In the Bottom-to-top approach, the manoeuvres are the smallest unit to be recognized by the algorithms. The driver behaviour can be discovered from the recognized manoeuvres and be used to build the manoeuvre models. The multi-manoeuvre models use the manoeuvres model to be built and finally become a complete route. The Bottom-to-Top approach is to detect the distraction of driver based on the comparison of the neutral state vehicle telematics in the known maneuvers.
+In the Bottom-to-top approach, the manoeuvres are the smallest unit to be recognised by the algorithms. The driver behaviour can be discovered from the recognised manoeuvres and be used to build the manoeuvre models. The multi-manoeuvre models use the manoeuvres model to be built and finally become a complete route. The Bottom-to-Top approach is to detect the distraction of driver based on the comparison of the neutral state vehicle telemetries in the known manoeuvres.
 
 \begin{figure}[hbt!]\centering
 \includegraphics[width=.75\textwidth]{image/BottomtoTop}
 \caption{Bottom-to-top approach for route model construction (Sathyanarayana et al., 2008)}
 \end{figure}
 
-In Top-to-Bottom approach, it is an opposite approach in driving behavior modeling. A single HMM is used to parse the route to the individual meaningful parts like maneuvers and states. The result of this approach is that the driver behavior in intersection will be identified by using three main clusters. The Top-to-Bottom approach is to recognized the route based on the vehicle operational data.
+In Top-to-Bottom approach, it is an opposite approach in driving behaviour modelling. A single HMM is used to parse the route to the individual meaningful parts like manoeuvres and states. The result of this approach is that the driver behaviour in intersection will be identified by using three main clusters. The Top-to-Bottom approach is to recognised the route based on vehicle information data.
 
 \begin{figure}[hbt!]\centering
 \includegraphics[width=.75\textwidth]{image/ToptoBottom}
@@ -55,24 +55,24 @@ The proposed method used UTDrive Vehicle to collect the data. The UTDrive Vehicl
 The experiment conducted in two different areas in order to collect two different scenarios data. The residential and commercial area including the right turn, left turn and lane change were selected for drivers to driver through. The drivers were required to drive two times with neutral driving and distracted driving. 
  
 \subsection{Experimental Result}
-Three different types of maneuvers (left turn, right turn, and lane change) were recognized by using the three CAN-Bus signals (vehicle speed, steering angle, and brake force). On the other hand, the distraction detection was recognized and having 95\% accuracy.
+Three different types of manoeuvres (left turn, right turn, and lane change) were recognised by using the three CAN-Bus signals (vehicle speed, steering angle, and brake force). On the other hand, the distraction detection was recognised and having 95\% accuracy.
 
 
-\section{Driving Behavior Analysis Based on Vehicle OBD Information and AdaBoost Algorithms}
-This paper was proposed by Shi-Huang et al.(2015). The researchers analyzed the drivers' behavior based on the on board diagnostic (OBD) information and using the AdaBoost Algorithms to create the driving  behavior classification. Finally, the experimental results show the correctness of the proposed driving behavior analysis method has 99.8\% accuracy rate in various driving simulations.
+\section{Driving Behaviour Analysis Based on Vehicle OBD Information and AdaBoost Algorithms}
+This paper was proposed by Shi-Huang et al.(2015). The researchers analysed the drivers' behaviour based on the on board diagnostic (OBD) information and using the AdaBoost Algorithms to create the driving  behaviour classification. Finally, the experimental results show the correctness of the proposed driving behaviour analysis method has 99.8\% accuracy rate in various driving simulations.
 
 \begin{figure}[hbt!]\centering
 \includegraphics[width=.75\textwidth]{image/adaboost_flowchart}
-\caption{The flowchart of the proposed driving behavior analysis method.}
+\caption{The flowchart of the proposed driving behaviour analysis method.}
 \end{figure}
 
 \subsection{AdaBoost Algorithms}
 AdaBoost is a classification machine learning algorithm. The AdaBoost algorithms is to form a strong classifier by combining the a large number of weak classifier. There are three different types of AdaBoost algorithms. They are Gentle AdaBoost, Modest AdaBoost and Real AdaBoost.
 
-\subsection{Driving Behavior Analysis Method}
-This proposed method used the OBD-II system in the vehicle and EZ-SCAN5 as the OBD-II to Bluetooth adapter to collect the vehicle operation information. OBD-II is proposed in 1996 to replace the OBD-I system. The OBD-II system is implemented in every vehicle under the Environmental Protection Agency (EPA) regulation in USA since 1996. When the air-pollution contents exhausted by the vehicle exceed the minimum level,the OBD-II system of the particular vehicle will generate the Diagnostic Trouble Code (DTC) message and Check Engine light will display on the vehicle dashboard. In order to communicate with the OBD-II system of the vehicle, EZ-SCAN5 as a OBD-II to Bluetooth adapter is required. The EZ-SCAN5 support most of the OBD-II communication protocols, such as SAE J1850 PWM, SAE J1850 VPW, ISO 9141-2, ISO 14230-4 KWP, and ISO 15765-4 CAN. If the communication protocol of the OBD-II system is not supported by the adapter, the vehicle operation information will not be able to retrieve.
+\subsection{Driving Behaviour Analysis Method}
+This proposed method used the OBD-II system in the vehicle and EZ-SCAN5 as the OBD-II to Bluetooth adapter to collect OBD-II vehicle information data. OBD-II is proposed in 1996 to replace the OBD-I system. The OBD-II system is implemented in every vehicle under the Environmental Protection Agency (EPA) regulation in USA since 1996. When the air-pollution contents exhausted by the vehicle exceed the minimum level,the OBD-II system of the particular vehicle will generate the Diagnostic Trouble Code (DTC) message and Check Engine light will display on the vehicle dashboard. In order to communicate with the OBD-II system of the vehicle, EZ-SCAN5 as a OBD-II to Bluetooth adapter is required. The EZ-SCAN5 support most of the OBD-II communication protocols, such as SAE J1850 PWM, SAE J1850 VPW, ISO 9141-2, ISO 14230-4 KWP, and ISO 15765-4 CAN. If the communication protocol of the OBD-II system is not supported by the adapter, the OBD-II vehicle information will not be able to retrieve.
 
-This proposed method collected vehicle speed, engine speed(RPM), throttle position and engine load as the vehicle operation information. According to the engine characteristic curve, the proposed method developed two criteria for the data collection.
+This proposed method collected vehicle speed, engine speed(RPM), throttle position and engine load as the OBD-II vehicle information data. According to the engine characteristic curve, the proposed method developed two criteria for the data collection.
 
 \begin{enumerate}
 \item The normal vehicle condition data \\
@@ -82,7 +82,7 @@ The relative ratio of the vehicle speed and the engine speed is out of the range
 \end{enumerate}
 
 \subsection{Vehicle OBD information Data Preprocessing}
-The proposed method used three characteristics. The three characteristics are the relative ratio of the vehicle speed and engine speed, the relative ratio of throttle position and engine speed, and engine load. Using the characteristics to analyzed the current state of the driving behavior whether the driver is in safe state or dangerous state.The proposed method needed to compute the change rate of vehicle speed, engine speed and throttle position in the first step. The calculation shown in Equation\eqref{eqa:ada_change_rate}, where $t_{2} - t_{1} = 1$.\\
+The proposed method used three characteristics. The three characteristics are the relative ratio of the vehicle speed and engine speed, the relative ratio of throttle position and engine speed, and engine load. Using the characteristics to analysed the current state of the driving behaviour whether the driver is in safe state or dangerous state.The proposed method needed to compute the change rate of vehicle speed, engine speed and throttle position in the first step. The calculation shown in Equation\eqref{eqa:ada_change_rate}, where $t_{2} - t_{1} = 1$.\\
 \begin{equation}
 \label{eqa:ada_change_rate}
 D(t) = \dfrac{data(t_{2})-data(t_{1})}{t_{2}-t_{1}}
@@ -103,7 +103,7 @@ R_{jz}(t) = \dfrac{jq'(t)}{max(jq')} \div \dfrac{zs'(t)}{max(zs'(t))}
 \\
 where $R_{jz}(t)$ is the relative ratio of engine speed and throttle position. The $jq'(t)$ is the change rate of the throttle position at time $t$. $zs'(t)$ is the change rate of the engine speed at time $t$. The $max(jq'(t))$ and $max(zs'(t))$ is the maximum value of the change rate of throttle position and engine speed, respectively.\\
 
-Based on the two computed features and engine load, this three features were combined to determine the vehicle data is normal or bad driving behavior.
+Based on the two computed features and engine load, this three features were combined to determine the vehicle data is normal or bad driving behaviour.
 
 \subsection{Experimental Result}
-The proposed method used the toolkit-GML-AdaBoost-matlab of MATLAB to execute data preprocessing and driving behavior modeling. The preprocessed data is tested on three different types of the AdaBoost algorithms. They are Gentle AdaBoost, Modest AdaBoost and Real AdaBoost. The Real AdaBoost are better than other AdaBoost algorithms with the highest accuracy rate, 99.8\%.
+The proposed method used the toolkit-GML-AdaBoost-matlab of MATLAB to execute data preprocessing and driving behaviour modelling. The preprocessed data is tested on three different types of the AdaBoost algorithms. They are Gentle AdaBoost, Modest AdaBoost and Real AdaBoost. The Real AdaBoost are better than other AdaBoost algorithms with the highest accuracy rate, 99.8\%.
