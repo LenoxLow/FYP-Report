@@ -25,13 +25,13 @@ Super Mini ELM327 Bluetooth OBD-II is an OBD-II scanning tool produced by ELM El
 \end{figure}
 
 \section{Software Requirement Introduction}
-In order to collect the vehicle operation data, Torque(Lite), an Android application needs to be installed in the smartphone. Vehicle operation data will be stored in smartphone with Comma Separated Values (CSV) file format. Google Drive will be utilized to store the CSV file as a cloud storage.
+In order to collect the vehicle operational data, Torque(Lite), an Android application needs to be installed in the smartphone. Vehicle operational data will be stored in smartphone with Comma Separated Values (CSV) file format. Google Drive will be utilized to store the CSV file as a cloud storage.
 
 In order to add on the new features to the dataset, Google Sheet and LibreOffice are used for modifying the dataset. 
 
 Google Earth are used for verify the road structure that drivers drove through. The Torque(Lite) can convert the CSV file to Keyhole Markup Language (KML) file.
  
-LibreOffice are applied in this project to do the final modification of the data set. After the modification, the data set will be stored as CSV format file. KNIME Analytic Platform is used for clustering the collected vehicle operation data by performing K Means Algorithm. The result will be visualized by using Tableau.
+LibreOffice are applied in this project to do the final modification of the dataset. After the modification, the dataset will be stored as CSV format file. KNIME Analytic Platform is used for clustering the collected vehicle operational data by performing K Means Algorithm. The result will be visualized by using Tableau.
 
 \subsection{Torque(Lite)}
 Torque Lite version is a free android application and it is able to be installed in smartphone from Google Play Store. The application will communicate with the ELM327 through the Bluetooth connection. The application will collect the data received from the ELM327 and  save the data into a CSV file in the smartphone. 
@@ -47,7 +47,7 @@ After vehicle ignition is on, ELM327 need to connect with the smartphone that op
 \subsection{KNIME Analytic Platform}
 KNIME Analytic Platform is an open platform for data analysis. It is a perfect tool for data scientists. The version of KNIME Analytic Platform used in this project is version 3.2.0. 
 
-KNIME Analytic Platform contain 1000 modules ,hundreds of ready-to-run examples, a set of integrated tools, and a list of advance algorithms available. User can build a machine learning experiment by dragging and dropping the related modules into the project. User needs to link and configure the module before execution.
+KNIME Analytic Platform contain 1000 modules, hundreds of ready-to-run examples, a set of integrated tools, and a list of advance algorithms available. User can build a machine learning experiment by dragging and dropping the related modules into the project. User needs to link and configure the module before execution.
 
 This project uses the module of the KNIME Analytic to complete the data preprocessing and driving behavior modeling. K Means algorithm module is used in this project to classify the driving behavior.
 
@@ -62,5 +62,5 @@ The second step of the algorithm is an inner loop for performing two functions. 
 
 This looping will be ended when the new iterations do not make the cluster centroids moved.
 
-\subsection{Tableau}
-Tableau is an software that has powerful data visualization functions. The data can be expressed by using graphics or diagrams in an interactive way. The version of the Tableau used in this project is version 10.0.
+%\subsection{Tableau}
+%Tableau is an software that has powerful data visualization functions. The data can be expressed by using graphics or diagrams in an interactive way. The version of the Tableau used in this project is version 10.0.

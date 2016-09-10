@@ -20,17 +20,13 @@
 \contentsline {chapter}{\chapternumberline {2}\MakeUppercase {Related Work}}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}Driver Behavior Analysis through Speech Emotional Understanding}{4}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Generic Self-organizing Fuzzy Neural Network (GensoFNN)}{5}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Driver Behavior Analysis Method}{5}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Conclusion}{5}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Driver Behavior Analysis and Route Recognition by Hidden Markov Models}{6}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Data Collection}{7}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Conclusion}{8}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.2.1}Driver Behavior Analysis Method}{5}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Driver Behavior Analysis and Route Recognition by Hidden Markov Models}{5}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Data Collection}{6}{subsection.2.3.1}
 \contentsline {section}{\numberline {2.4}Driving Behavior Analysis Based on Vehicle OBD Information and AdaBoost Algorithms}{8}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}AdaBoost Algorithms}{9}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}AdaBoost Algorithms}{8}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Driving Behavior Analysis Method}{9}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Vehicle OBD information Data Preprocessing}{10}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Experimental Results}{11}{subsection.2.4.4}
 \vspace *{-4pt}
 \contentsline {chapter}{\chapternumberline {3}\MakeUppercase {Requirement}}{12}{chapter.3}
 \contentsline {section}{\numberline {3.1}Hardware Requirement Introduction}{12}{section.3.1}
@@ -40,16 +36,15 @@
 \contentsline {subsection}{\numberline {3.2.1}Torque(Lite)}{14}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}KNIME Analytic Platform}{15}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}K Means Algorithm}{16}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Tableau}{16}{subsection.3.2.4}
 \vspace *{-4pt}
 \contentsline {chapter}{\chapternumberline {4}\MakeUppercase {Design}}{17}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2}Driving Operation Data Acquisition}{17}{section.4.2}
-\contentsline {section}{\numberline {4.3}Driving Operation Data Preprocessing}{20}{section.4.3}
+\contentsline {section}{\numberline {4.2}Data Acquisition}{17}{section.4.2}
+\contentsline {section}{\numberline {4.3}Driving Operation Data Preprocessing}{21}{section.4.3}
 \contentsline {section}{\numberline {4.4}Data Fusion}{21}{section.4.4}
-\contentsline {section}{\numberline {4.5}Establish the driving operation model by K Means Algorithm}{22}{section.4.5}
+\contentsline {section}{\numberline {4.5}Establish the driving operation model by K Means Algorithm}{21}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Features selection}{22}{subsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.1 (a)}Linear Correlation}{23}{subsubsection.4.5.1.1}
+\contentsline {subsubsection}{\numberline {4.5.1 (a)}Linear Correlation}{22}{subsubsection.4.5.1.1}
 \contentsline {subsection}{\numberline {4.5.2}Cluster Labeling}{23}{subsection.4.5.2}
 \contentsline {subsection}{\numberline {4.5.3}Work Flow Design}{24}{subsection.4.5.3}
 \contentsline {section}{\numberline {4.6}Driver Driving Behavior Profiling}{25}{section.4.6}

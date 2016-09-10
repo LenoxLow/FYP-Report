@@ -1,19 +1,19 @@
 %!TEX ROOT = thesis.tex
 \chapter{Related Work}
 \section{Introduction}
-Various literature have introduced driving behaviour analysis. Driving behavior can be influenced by the emotion of the drivers. The driver may drive faster when they felt angry or sad. Most of the accidents are caused by the distracted driver. The driver may be distracted by phone call while driving. Driver behavior is hard to be determined by the speech emotion of the driver.\cite{kamaruddin:wahab:2010}
+Various literature have introduced driving behaviour analysis. Driving behavior can be influenced by the emotion of the drivers. The driver may drive faster when they feel angry or sad. Most of the accidents are caused by the distracted driver. The driver may be distracted by phone call while driving. Driver behavior is hard to be determined by the speech emotion of the driver.\cite{kamaruddin:wahab:2010}
 
-The driving environment will also affect the driver behavior. Some of the driver will pass through the intersection without stopping and observing the surrounding condition. The decision of drivers for passing through certain road condition will reflect the drivers' driving behavior.
+The driving environment will also affect the driver behaviour. Some of the drivers will pass through the intersection without stopping and observing the surrounding condition. The decision of drivers for passing through certain road condition will reflect the drivers' driving behaviour.
 
-The vehicle operation data will direct reflect the driver driving behavior. Vehicle speed can determine the current driving state whether increasing speed or remaining safe. Engine speed can determine the effciency of the vehicle operation. The number of fuel sent to the engine is determined by the throttle position. Suitable throttle position will ensure that the engine operates efficiently. Inappropriate throttle position will cause incomplete combustion of fuel and air pollution.\cite{chen:pan:lu:2015}   
+The vehicle operational data will directly reflect the driving behavior of the driver. Vehicle speed can determine the current driving state whether accelerating or remaining safe. Engine speed can determine the effciency of the vehicle operation. The number of fuel sent to the engine is determined by the throttle position. Suitable throttle position will ensure that the engine operates efficiently. Inappropriate throttle position will cause incomplete combustion of fuel and air pollution.\cite{chen:pan:lu:2015}   
 
-\section{Driver Behavior Analysis through Speech Emotional Understanding}
-This paper was proposed by Kamaruddin and Wahab\citeyear{kamaruddin:wahab:2010}. The researchers analyzed the driver behavior state (DBS) based on the emotion of the driver when the driver was driving. The emotion of the driver can be detected through speech. 
-The scholars used the Berlin data set and NAW data set as training set. The Berlin data set and NAW data set are standard data set for speech emotion recognition and have been used by many researchers.
+\section{Driver Behaviour Analysis through Speech Emotional Understanding}
+This paper was proposed by Kamaruddin and Wahab\citeyear{kamaruddin:wahab:2010}. The researchers analysed the driver behaviour state (DBS) based on the emotion of the driver when the driver was driving. The emotion of the driver can be detected through speech. 
+The researches used the Berlin dataset and NAW dataset as training set. The Berlin dataset and NAW dataset are standard dataset for speech emotion recognition and have been used by many researchers.
 The proposed method used the Generic Self-organizing Fuzzy Neural Network (GensoFNN) as a classifier for identification purpose. 
-\subsection{Generic Self-organizing Fuzzy Neural Network (GensoFNN)}
-Fuzzy neural network is the combination of neural network and fuzzy inference system. It contains the interpret-ability of fuzzy inference system and the adaptability of neural network. GensoFNN is a classifier that can generate consistent result as it is able to do self-clustering process of the training data.
-\subsection{Driver Behavior Analysis Method}
+%\subsection{Generic Self-organizing Fuzzy Neural Network (GensoFNN)}
+%Fuzzy neural network is the combination of neural network and fuzzy inference system. It contains the interpret-ability of fuzzy inference system and the adaptability of neural network. GensoFNN is a classifier that can generate consistent result as it is able to do self-clustering process of the training data.
+\subsection{Driver Behaviour Analysis Method}
 This proposed method collected data from 11 adults (3 female and 8 male). The drivers have at least two years of driving experience and drive at least 10 hours per week. The drivers are required to do four designed actions. The actions are: 
 \begin{enumerate}
 \item driver talking through the mobile phone while driving.
@@ -22,27 +22,27 @@ This proposed method collected data from 11 adults (3 female and 8 male). The dr
 \item driver in the initial driving exercise where the driver is in neural state of emotion.
 \end{enumerate}
 
-A microphone is embedded in the vehicle to collect the speech of the driver while driving. The experiments to analyzed the three DBS of talking, laughing, and sleepy were conducted. The researchers use the Berlin data set and NAW data set to relate the three DBS with the angry, happy, and sad emotion.
+A microphone is embedded in the vehicle to collect the speech of the driver while driving. The experiments to analysed the three DBS of talking, laughing, and sleepy were conducted. The researchers use the Berlin dataset and NAW dataset to relate the three DBS with the angry, happy, and sad emotion.
 
-\subsection{Conclusion}
+\subsection{Experimental Result}
 The result shows that the sleepy DBS can be recognized as sad emotion consistently. However, the talking and laughing DBS gave mixed results. It means that more work need to be conducted for better classification of the two DBS. The accuracy of sleepy emotion detection is up to 65\% using the proposed speech emotion recognition system.
 
-\section{Driver Behavior Analysis and Route Recognition by Hidden Markov Models}
-This paper was proposed by Sathyanarayana, Boyraz, and Hansen\citeyear{sath:2008}. This paper introduced the driver behavior modeling using Hidden Markov Models (HMM) in Bottom-to-Top Approach and Top-to-Bottom Approach.
+\section{Driver Behaviour Analysis and Route Recognition by Hidden Markov Models}
+This paper was proposed by Sathyanarayana, Boyraz, and Hansen\citeyear{sath:2008}. This paper introduced the driver behaviour modelling using Hidden Markov Models (HMM) in Bottom-to-Top Approach and Top-to-Bottom Approach.
 
 \begin{figure}[hbt!]\centering
 \includegraphics[width=.75\textwidth]{image/HMM_flowchart}
 \caption{Hierarchy among the units of route recognition (Sathyanarayana et al., 2008)}
 \end{figure}
 
-In the Bottom-to-top approach, the maneuvers are the smallest unit to be recognized by the algorithms. The driver behavior can be discovered from the recognized maneuvers and be used to build the maneuver models. The multi-maneuver models use the maneuvers model to be built and finally become a complete route. The Bottom-to-Top approach is to detect the distraction of driver based on the comparison of the neutral state vehicle operation data in the known maneuvers.
+In the Bottom-to-top approach, the manoeuvres are the smallest unit to be recognized by the algorithms. The driver behaviour can be discovered from the recognized manoeuvres and be used to build the manoeuvre models. The multi-manoeuvre models use the manoeuvres model to be built and finally become a complete route. The Bottom-to-Top approach is to detect the distraction of driver based on the comparison of the neutral state vehicle telematics in the known maneuvers.
 
 \begin{figure}[hbt!]\centering
 \includegraphics[width=.75\textwidth]{image/BottomtoTop}
 \caption{Bottom-to-top approach for route model construction (Sathyanarayana et al., 2008)}
 \end{figure}
 
-In Top-to-Bottom approach, it is an opposite approach in driving behavior modeling. A single HMM is used to parse the route to the individual meaningful parts like maneuvers and states. The result of this approach is that the driver behavior in intersection will be identified by using three main clusters. The Top-to-Bottom approach is to recognized the route based on the vehicle operation data.
+In Top-to-Bottom approach, it is an opposite approach in driving behavior modeling. A single HMM is used to parse the route to the individual meaningful parts like maneuvers and states. The result of this approach is that the driver behavior in intersection will be identified by using three main clusters. The Top-to-Bottom approach is to recognized the route based on the vehicle operational data.
 
 \begin{figure}[hbt!]\centering
 \includegraphics[width=.75\textwidth]{image/ToptoBottom}
@@ -54,12 +54,12 @@ The proposed method used UTDrive Vehicle to collect the data. The UTDrive Vehicl
 
 The experiment conducted in two different areas in order to collect two different scenarios data. The residential and commercial area including the right turn, left turn and lane change were selected for drivers to driver through. The drivers were required to drive two times with neutral driving and distracted driving. 
  
-\subsection{Conclusion}
+\subsection{Experimental Result}
 Three different types of maneuvers (left turn, right turn, and lane change) were recognized by using the three CAN-Bus signals (vehicle speed, steering angle, and brake force). On the other hand, the distraction detection was recognized and having 95\% accuracy.
 
 
 \section{Driving Behavior Analysis Based on Vehicle OBD Information and AdaBoost Algorithms}
-This paper was proposed by Shi-Huang et al.(2015). The researchers analyzed the drivers' behavior based on the on board diagnostic (OBD) information and using the AdaBoost Algorithms to create the driving  behavior classification.Finally, the experimental results show the correctness of the proposed driving behavior analysis method has 99.8\% accuracy rate in various driving simulations.
+This paper was proposed by Shi-Huang et al.(2015). The researchers analyzed the drivers' behavior based on the on board diagnostic (OBD) information and using the AdaBoost Algorithms to create the driving  behavior classification. Finally, the experimental results show the correctness of the proposed driving behavior analysis method has 99.8\% accuracy rate in various driving simulations.
 
 \begin{figure}[hbt!]\centering
 \includegraphics[width=.75\textwidth]{image/adaboost_flowchart}
@@ -105,5 +105,5 @@ where $R_{jz}(t)$ is the relative ratio of engine speed and throttle position. T
 
 Based on the two computed features and engine load, this three features were combined to determine the vehicle data is normal or bad driving behavior.
 
-\subsection{Experimental Results}
+\subsection{Experimental Result}
 The proposed method used the toolkit-GML-AdaBoost-matlab of MATLAB to execute data preprocessing and driving behavior modeling. The preprocessed data is tested on three different types of the AdaBoost algorithms. They are Gentle AdaBoost, Modest AdaBoost and Real AdaBoost. The Real AdaBoost are better than other AdaBoost algorithms with the highest accuracy rate, 99.8\%.

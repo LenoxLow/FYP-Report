@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.19)  7 SEP 2016 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.19)  9 SEP 2016 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1662,7 +1662,13 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 [4
 
 
-] [5] (./sample-abstract.tex) [6
+] [5] (./sample-abstract.tex)
+Overfull \hbox (7.52768pt too wide) in paragraph at lines 3--31
+\T1/ptm/m/n/12 po-si-tion, lat-i-tude co-or-di-nate, lon-gi-tude co-or-di-nate,
+ GPS speed, and oth-ers. The pro-posed
+ []
+
+[6
 
 ] (./thesis.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -1673,23 +1679,23 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
  [7
 
-]) [8] (./thesis.lot)
-[9
+]) [8] (./thesis.lot) [9
 
 ] (./thesis.lof) [10
 
 ]
 \openout2 = `sample-chap-intro.aux'.
 
- (./sample-chap-intro.tex
+
+(./sample-chap-intro.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
 
-<image/accident.png, id=423, 1146.2825pt x 624.3325pt>
+<image/accident.png, id=398, 1146.2825pt x 624.3325pt>
 File: image/accident.png Graphic file (type png)
 
 <use image/accident.png>
-Package pdftex.def Info: image/accident.png used on input line 13.
+Package pdftex.def Info: image/accident.png used on input line 12.
 (pdftex.def)             Requested size: 309.0pt x 168.29576pt.
  [1
 
@@ -1701,13 +1707,9 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.19 
-      <./image/accident.png>] [2]
-
-LaTeX Warning: Reference `gantt1' on page 3 undefined on input line 36.
-
-) [3pdfTeX warning (ext4): destination with the same identifier (name{table.1.1
-}) has been already used, duplicate ignored
+l.18 
+      <./image/accident.png>] [2]) [3pdfTeX warning (ext4): destination with th
+e same identifier (name{table.1.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1716,22 +1718,16 @@ l.42 \include{sample-chap-intro}
 \openout2 = `chap-relatedwork.aux'.
 
  (./chap-relatedwork.tex
-Overfull \hbox (2.13144pt too wide) in paragraph at lines 8--9
-[]\T1/ptm/m/n/12 The ve-hi-cle op-er-a-tion data will di-rect re-flect the driv
-er driv-ing be-hav-ior. Ve-hi-cle
+Overfull \hbox (8.5723pt too wide) in paragraph at lines 6--7
+\T1/ptm/m/n/12 drivers will pass through the in-ter-sec-tion with-out stop-ping
+ and ob-serv-ing the sur-round-ing
  []
 
 [4
 
 
 
-]
-Overfull \hbox (20.85037pt too wide) in paragraph at lines 28--29
-[]\T1/ptm/m/n/12 The re-sult shows that the sleepy DBS can be rec-og-nized as s
-ad emo-tion con-sis-tently.
- []
-
-[5] <image/HMM_flowchart.png, id=463, 255.95625pt x 285.065pt>
+] <image/HMM_flowchart.png, id=430, 255.95625pt x 285.065pt>
 File: image/HMM_flowchart.png Graphic file (type png)
 
 <use image/HMM_flowchart.png>
@@ -1749,50 +1745,50 @@ Overfull \hbox (8.18909pt too wide) in paragraph at lines 38--39
 rom the rec-og-nized ma-neu-vers
  []
 
-<image/BottomtoTop.png, id=464, 542.025pt x 427.5975pt>
+<image/BottomtoTop.png, id=431, 542.025pt x 427.5975pt>
 File: image/BottomtoTop.png Graphic file (type png)
 
 <use image/BottomtoTop.png>
 Package pdftex.def Info: image/BottomtoTop.png used on input line 41.
 (pdftex.def)             Requested size: 309.0pt x 243.77225pt.
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.43 \end{figure}
-                  <./image/HMM_flowchart.png>]
-<image/ToptoBottom.png, id=471, 542.025pt x 414.54875pt>
+ [5]
+<image/ToptoBottom.png, id=441, 542.025pt x 414.54875pt>
 File: image/ToptoBottom.png Graphic file (type png)
 
 <use image/ToptoBottom.png>
 Package pdftex.def Info: image/ToptoBottom.png used on input line 48.
 (pdftex.def)             Requested size: 309.0pt x 236.33319pt.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.54 
+      <./image/HMM_flowchart.png>] [7pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.2.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.54 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.54 
+      <./image/BottomtoTop.png> <./image/ToptoBottom.png>]
 Overfull \hbox (1.03949pt too wide) in paragraph at lines 55--56
 []\T1/ptm/m/n/12 The ex-per-i-ment con-ducted in two dif-fer-ent ar-eas in or-d
 er to col-lect two dif-fer-ent
  []
 
-[7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}
-) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.56 
-      <./image/BottomtoTop.png>]
 Overfull \hbox (2.2956pt too wide) in paragraph at lines 61--61
 []\T1/ptm/b/n/12 Driving Be-hav-ior Anal-y-sis Based on Ve-hi-cle OBD In-for-ma
 -tion and Ad-aBoost
  []
 
-
-Overfull \hbox (36.06316pt too wide) in paragraph at lines 62--63
-\T1/ptm/m/n/12 the Ad-aBoost Al-go-rithms to cre-ate the driv-ing be-hav-ior cl
-as-si-fi-ca-tion.Finally, the ex-per-i-men-tal
- []
-
-<image/adaboost_flowchart.png, id=478, 631.35875pt x 305.14pt>
+<image/adaboost_flowchart.png, id=455, 631.35875pt x 305.14pt>
 File: image/adaboost_flowchart.png Graphic file (type png)
 
 <use image/adaboost_flowchart.png>
@@ -1804,13 +1800,7 @@ Overfull \hbox (17.49051pt too wide) in paragraph at lines 70--71
 m. The Ad-aBoost al-go-rithms
  []
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}
-) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.71 
-      <./image/ToptoBottom.png>]
 Overfull \hbox (3.30316pt too wide) in paragraph at lines 73--74
 \T1/ptm/m/n/12 as the OBD-II to Blue-tooth adapter to col-lect the ve-hi-cle op
 -er-a-tion in-for-ma-tion. OBD-II
@@ -1828,19 +1818,19 @@ Overfull \hbox (3.78386pt too wide) in paragraph at lines 73--74
 of the ve-hi-cle, EZ-SCAN5
  []
 
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}
+) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.74 
+      <./image/adaboost_flowchart.png>]
 Overfull \hbox (1.00002pt too wide) in paragraph at lines 75--76
 \T1/ptm/m/n/12 char-ac-ter-is-tic curve, the pro-posed method de-vel-oped two c
 ri-te-ria for the data col-lec-tion. 
  []
 
-[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.76 
-      <./image/adaboost_flowchart.png>] [10]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 95--98
 
  []
@@ -1850,7 +1840,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--105
 
  []
 
-) [11]
+[10]) [11]
 \openout2 = `chap-theoritical.aux'.
 
  (./chap-theoritical.tex [12
@@ -1858,7 +1848,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--105
 
 
 ]
-<image/obd.jpg, id=513, 1927.2pt x 1445.4pt>
+<image/obd.jpg, id=489, 1927.2pt x 1445.4pt>
 File: image/obd.jpg Graphic file (type jpg)
  <use image/obd.jpg>
 Package pdftex.def Info: image/obd.jpg used on input line 14.
@@ -1869,15 +1859,15 @@ Overfull \hbox (0.85573pt too wide) in paragraph at lines 20--21
 I pro-to-cols. ELM327
  []
 
-<image/ELM327.jpeg, id=514, 722.7pt x 963.6pt>
+<image/ELM327.jpeg, id=490, 722.7pt x 963.6pt>
 File: image/ELM327.jpeg Graphic file (type jpg)
  <use image/ELM327.jpeg>
 Package pdftex.def Info: image/ELM327.jpeg used on input line 23.
 (pdftex.def)             Requested size: 254.62497pt x 339.5pt.
 
-Overfull \hbox (12.27164pt too wide) in paragraph at lines 28--29
-[]\T1/ptm/m/n/12 In or-der to col-lect the ve-hi-cle op-er-a-tion data, Torque(
-Lite), an An-droid ap-pli-ca-tion
+Overfull \hbox (20.93544pt too wide) in paragraph at lines 28--29
+[]\T1/ptm/m/n/12 In or-der to col-lect the ve-hi-cle op-er-a-tional data, Torqu
+e(Lite), an An-droid ap-pli-ca-tion
  []
 
 [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
@@ -1886,19 +1876,13 @@ Lite), an An-droid ap-pli-ca-tion
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.33 
-      <./image/obd.jpg>]
-Overfull \hbox (13.7676pt too wide) in paragraph at lines 34--35
-\T1/ptm/m/n/12 An-a-lytic Plat-form is used for clus-ter-ing the col-lected ve-
-hi-cle op-er-a-tion data by per-form-ing
- []
-
-[14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
-}) has been already used, duplicate ignored
+      <./image/obd.jpg>] [14pdfTeX warning (ext4): destination with the same id
+entifier (name{figure.3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.40 
-      <./image/ELM327.jpeg>] <image/torque.png, id=525, 1084.05pt x 1927.2pt>
+      <./image/ELM327.jpeg>] <image/torque.png, id=501, 1084.05pt x 1927.2pt>
 File: image/torque.png Graphic file (type png)
 
 <use image/torque.png>
@@ -1914,7 +1898,12 @@ l.51
 \openout2 = `sample-chap-dummy.aux'.
 
  (./sample-chap-dummy.tex
-<image/flowchart.png, id=540, 236.885pt x 453.695pt>
+Overfull \hbox (1.87637pt too wide) in paragraph at lines 4--5
+\T1/ptm/m/n/12 al-go-rithm mod-ule. The raw data will be pre-pro-cessed. Each d
+river's ve-hi-cle op-er-a-tional
+ []
+
+<image/flowchart.png, id=516, 236.885pt x 453.695pt>
 File: image/flowchart.png Graphic file (type png)
  <use image/flowchart.png>
 Package pdftex.def Info: image/flowchart.png used on input line 7.
@@ -1936,12 +1925,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.14 
       <./image/flowchart.png>]
-Overfull \hbox (9.94371pt too wide) in paragraph at lines 15--16
-[]\T1/ptm/m/n/12 Vehicle op-er-a-tion data will be recorded in ev-ery sec-ond. 
-The drivers are re-quested
- []
-
-<image/GDfile.png, id=547, 1284.8pt x 720.6925pt>
+<image/GDfile.png, id=523, 1284.8pt x 720.6925pt>
 File: image/GDfile.png Graphic file (type png)
  <use image/GDfile.png>
 Package pdftex.def Info: image/GDfile.png used on input line 18.
@@ -1953,13 +1937,13 @@ Package pdftex.def Info: image/GDfile.png used on input line 18.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.26 
-      <./image/GDfile.png>] <image/GEMapView.png, id=554, 1284.8pt x 803.0pt>
+      <./image/GDfile.png>] <image/GEMapView.png, id=530, 1284.8pt x 803.0pt>
 File: image/GEMapView.png Graphic file (type png)
 
 <use image/GEMapView.png>
 Package pdftex.def Info: image/GEMapView.png used on input line 28.
 (pdftex.def)             Requested size: 309.0pt x 193.11603pt.
- <image/GEStreetView.png, id=556, 1284.8pt x 803.0pt>
+ <image/GEStreetView.png, id=532, 1284.8pt x 803.0pt>
 File: image/GEStreetView.png Graphic file (type png)
 
 <use image/GEStreetView.png>
@@ -1978,19 +1962,20 @@ l.42
                                                   \fi \fi 
 l.42 
       <./image/GEMapView.png> <./image/GEStreetView.png>]
-Overfull \hbox (8.43929pt too wide) in paragraph at lines 43--44
-\T1/ptm/m/n/12 in-ter-sec-tion. This ac-tion will in-crease the po-ten-tial of 
-ac-ci-dent occurances.[][]Kulanthayan,
- []
-
-<image/LOspeedtest.png, id=567, 1284.8pt x 803.0pt>
+<image/LOspeedtest.png, id=543, 1284.8pt x 803.0pt>
 File: image/LOspeedtest.png Graphic file (type png)
 
 <use image/LOspeedtest.png>
 Package pdftex.def Info: image/LOspeedtest.png used on input line 48.
 (pdftex.def)             Requested size: 309.0pt x 193.11603pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+5}) has been already used, duplicate ignored
 
-<image/datapreprocessing.png, id=569, 1284.8pt x 803.0pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.56 
+      <./image/LOspeedtest.png>]
+<image/datapreprocessing.png, id=551, 1284.8pt x 803.0pt>
 File: image/datapreprocessing.png Graphic file (type png)
 
 <use image/datapreprocessing.png>
@@ -2002,83 +1987,72 @@ Overfull \hbox (8.47955pt too wide) in paragraph at lines 64--65
 uired to be con-cate-nated
  []
 
-[20] <image/KNIMEconcatenate.png, id=578, 1284.8pt x 803.0pt>
+<image/KNIMEconcatenate.png, id=553, 1284.8pt x 803.0pt>
 File: image/KNIMEconcatenate.png Graphic file (type png)
 
 <use image/KNIMEconcatenate.png>
 Package pdftex.def Info: image/KNIMEconcatenate.png used on input line 67.
 (pdftex.def)             Requested size: 309.0pt x 193.11603pt.
- [21pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-5}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.74 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
-.6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.74 
-      <./image/LOspeedtest.png> <./image/datapreprocessing.png>]
 Overfull \hbox (9.13506pt too wide) in paragraph at lines 76--77
 \T1/ptm/m/n/12 clus-ter-ing. Cor-re-la-tion mod-ule is im-ple-mented to help fe
 a-tures se-lec-tion. The cor-re-la-tion
  []
 
-<image/KNIMEcorrelation.png, id=586, 556.0775pt x 500.87125pt>
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.77 
+      <./image/datapreprocessing.png>]
+<image/KNIMEcorrelation.png, id=560, 556.0775pt x 500.87125pt>
 File: image/KNIMEcorrelation.png Graphic file (type png)
 
 <use image/KNIMEcorrelation.png>
 Package pdftex.def Info: image/KNIMEcorrelation.png used on input line 79.
 (pdftex.def)             Requested size: 228.706pt x 206.0pt.
- [22pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-7}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.86 
-      <./image/KNIMEconcatenate.png>]
 Overfull \hbox (5.58653pt too wide) in paragraph at lines 88--89
 []\T1/ptm/m/n/12 After the K Means Al-go-rithm mod-ule ex-e-cu-tion, three clus
 -ters will be gen-er-ated.
  []
 
-<image/cluster.png, id=593, 465.74pt x 452.69125pt>
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.89 
+      <./image/KNIMEconcatenate.png>]
+<image/cluster.png, id=569, 465.74pt x 452.69125pt>
 File: image/cluster.png Graphic file (type png)
  <use image/cluster.png>
 Package pdftex.def Info: image/cluster.png used on input line 91.
 (pdftex.def)             Requested size: 211.93335pt x 206.0pt.
 
-[23pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.94 \end{figure}
-                  <./image/KNIMEcorrelation.png>]
 Overfull \hbox (0.43863pt too wide) in paragraph at lines 97--98
 []\T1/ptm/m/n/12 String Re-placer mod-ule pro-vided by KN-IME An-a-lytic Plat-f
 orm is im-ple-mented
  []
 
-<image/clusterresult.png, id=601, 1284.8pt x 803.0pt>
+<image/clusterresult.png, id=571, 1284.8pt x 803.0pt>
 File: image/clusterresult.png Graphic file (type png)
 
 <use image/clusterresult.png>
 Package pdftex.def Info: image/clusterresult.png used on input line 102.
 (pdftex.def)             Requested size: 329.58992pt x 206.0pt.
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+8}) has been already used, duplicate ignored
 
-<image/KNIMEfile.png, id=604, 1284.8pt x 803.0pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.110 
+       <./image/KNIMEcorrelation.png>]
+<image/KNIMEfile.png, id=579, 1284.8pt x 803.0pt>
 File: image/KNIMEfile.png Graphic file (type png)
  <use image/KNIMEfile.png>
 Package pdftex.def Info: image/KNIMEfile.png used on input line 112.
-(pdftex.def)             Requested size: 309.0pt x 193.11603pt.
-
-<image/KNIMEkmean.png, id=605, 1284.8pt x 803.0pt>
-File: image/KNIMEkmean.png Graphic file (type png)
- <use image/KNIMEkmean.png>
-Package pdftex.def Info: image/KNIMEkmean.png used on input line 118.
 (pdftex.def)             Requested size: 309.0pt x 193.11603pt.
 
 [24pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9
@@ -2086,50 +2060,53 @@ Package pdftex.def Info: image/KNIMEkmean.png used on input line 118.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.128 
-       <./image/cluster.png>] [25pdfTeX warning (ext4): destination with the sa
-me identifier (name{figure.4.10}) has been already used, duplicate ignored
+l.115 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.4.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.115 \end{figure}
+                   <./image/cluster.png> <./image/clusterresult.png>]
+<image/KNIMEkmean.png, id=586, 1284.8pt x 803.0pt>
+File: image/KNIMEkmean.png Graphic file (type png)
+ <use image/KNIMEkmean.png>
+Package pdftex.def Info: image/KNIMEkmean.png used on input line 118.
+(pdftex.def)             Requested size: 309.0pt x 193.11603pt.
+
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.129 A
        fter trying few method to determine the driver driving behavior profi...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.11})
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.12})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.129 A
        fter trying few method to determine the driver driving behavior profi...
- <./image/clusterresult.png> <./image/KNIMEfile.png>]
+ <./image/KNIMEfile.png> <./image/KNIMEkmean.png>]
 Overfull \hbox (3.59283pt too wide) in paragraph at lines 134--165
 [][]
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[26pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.171 
-       <./image/KNIMEkmean.png>]
-<image/Tresult.png, id=625, 1284.8pt x 803.0pt>
+<image/Tresult.png, id=596, 1284.8pt x 803.0pt>
 File: image/Tresult.png Graphic file (type png)
  <use image/Tresult.png>
 Package pdftex.def Info: image/Tresult.png used on input line 173.
 (pdftex.def)             Requested size: 309.0pt x 193.11603pt.
 )
-[27pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
+[26pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.45 \include{sample-chap-dummy}
-                                pdfTeX warning (ext4): destination with the sam
-e identifier (name{figure.4.13}) has been already used, duplicate ignored
+                                ] [27pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.4.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2163,8 +2140,13 @@ l.46 \include{chap-implementation-plan}
                                        ]
 \openout2 = `sample-chap-conclusion.aux'.
 
- (./sample-chap-conclusion.tex)
-[30
+ (./sample-chap-conclusion.tex
+Overfull \hbox (1.44798pt too wide) in paragraph at lines 5--6
+[]\T1/ptm/m/n/12 In the cur-rent project phase, nor-mal driver driv-ing be-hav-
+ior pro-fil-ing is achieved
+ []
+
+) [30
 
 
 
@@ -2216,17 +2198,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A059106FAEB65469154B90ADABFBBB05;4292.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 88E7D3A01B5E8BA02EFF0245681DDE46;3900.
  ) 
 Here is how much of TeX's memory you used:
- 17298 strings out of 493014
- 249546 string characters out of 6133351
- 452561 words of memory out of 5000000
- 20254 multiletter control sequences out of 15000+600000
+ 17287 strings out of 493014
+ 249368 string characters out of 6133351
+ 453519 words of memory out of 5000000
+ 20248 multiletter control sequences out of 15000+600000
  69156 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,12n,39p,1976b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2239,10 +2217,10 @@ ts/type1/urw/helvetic/uhvr8ac.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on thesis.pdf (45 pages, 5553026 bytes).
+Output written on thesis.pdf (45 pages, 5549667 bytes).
 PDF statistics:
- 728 PDF objects out of 1000 (max. 8388607)
- 628 compressed objects within 7 object streams
- 153 named destinations out of 1000 (max. 500000)
- 602 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 702 PDF objects out of 1000 (max. 8388607)
+ 602 compressed objects within 7 object streams
+ 148 named destinations out of 1000 (max. 500000)
+ 562 words of extra memory for PDF output out of 10000 (max. 10000000)
 
