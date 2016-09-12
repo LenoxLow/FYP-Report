@@ -10,8 +10,8 @@
 \BOOKMARK [-1][-]{main.-1}{Main Chapters}{}% 10
 \BOOKMARK [0][-]{chapter.1}{Introduction}{main.-1}% 11
 \BOOKMARK [1][-]{section.1.1}{Basic Introduction}{chapter.1}% 12
-\BOOKMARK [1][-]{section.1.2}{Project Objective}{chapter.1}% 13
-\BOOKMARK [1][-]{section.1.3}{Research Motivation}{chapter.1}% 14
+\BOOKMARK [1][-]{section.1.2}{Research Motivation}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.3}{Project Objective}{chapter.1}% 14
 \BOOKMARK [1][-]{section.1.4}{Project Scope}{chapter.1}% 15
 \BOOKMARK [1][-]{section.1.5}{Project Plan}{chapter.1}% 16
 \BOOKMARK [0][-]{chapter.2}{Related Work}{main.-1}% 17
@@ -34,16 +34,16 @@
 \BOOKMARK [1][-]{section.3.2}{Software Requirement Introduction}{chapter.3}% 34
 \BOOKMARK [2][-]{subsection.3.2.1}{Torque\(Lite\)}{section.3.2}% 35
 \BOOKMARK [2][-]{subsection.3.2.2}{KNIME Analytics Platform}{section.3.2}% 36
-\BOOKMARK [2][-]{subsection.3.2.3}{K Means Algorissthm}{section.3.2}% 37
+\BOOKMARK [2][-]{subsection.3.2.3}{K-Means Algorithm}{section.3.2}% 37
 \BOOKMARK [0][-]{chapter.4}{Design}{main.-1}% 38
 \BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 39
 \BOOKMARK [1][-]{section.4.2}{Data Acquisition}{chapter.4}% 40
 \BOOKMARK [1][-]{section.4.3}{Driving Operation Data Preprocessing}{chapter.4}% 41
 \BOOKMARK [1][-]{section.4.4}{Data Fusion}{chapter.4}% 42
-\BOOKMARK [1][-]{section.4.5}{Establish the driving operation model by K Means Algorithm}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.5}{Establish the driving operation model by K-Means Algorithm}{chapter.4}% 43
 \BOOKMARK [2][-]{subsection.4.5.1}{Features selection}{section.4.5}% 44
 \BOOKMARK [2][-]{subsection.4.5.2}{Cluster Labelling}{section.4.5}% 45
-\BOOKMARK [2][-]{subsection.4.5.3}{Work Flow Design}{section.4.5}% 46
+\BOOKMARK [2][-]{subsection.4.5.3}{Workflow Design}{section.4.5}% 46
 \BOOKMARK [1][-]{section.4.6}{Driver Driving Behaviour Profiling}{chapter.4}% 47
 \BOOKMARK [0][-]{chapter.5}{Implementation Plan}{main.-1}% 48
 \BOOKMARK [1][-]{section.5.1}{Project Problem Encounter}{chapter.5}% 49

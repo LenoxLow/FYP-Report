@@ -4,30 +4,40 @@
 %In the Introduction section, you should describe the problem investigated. Try to summarize relevant research to provide context, key terms, and concept so the reader can understand the whole final year project. Go and read journal or conference papers and review relevant past research to 
 %provide rational or justification for your work. Define clearly your final project objectives and briefly describe your research – design, 
 %research, hypothesis, etc.
-Currently, the amount of vehicles on the road increases every year in Malaysia. It is because the local brand car is affordable by many low-income level household. The manufacturer also provided promotions to attract people to buy cars. As the result, the number of non-professional driver rapidly increased in Malaysia. Most of the drivers are unskilled and lack of awareness on the traffic safety and vehicle condition. The driver's personal factors have become the main reason of causing the traffic incidents.
+%Currently, the amount of vehicles on the road increases every year in Malaysia. It is because the local brand car is affordable by many low-income level households. The manufacturer also provided promotions to attract people to buy cars. As the result, the number of non-professional driver rapidly increased in Malaysia. Most of the drivers are unskilled and lack of awareness on the traffic safety and vehicle condition. The driver's personal factors have become the main reason of causing the traffic incidents.
 
-According to the general road accident data in Malaysia taken from Malaysian Institute of Road Safety Research (MIROS) official website shown in Figure \ref{fig:accident}, the Malaysia government put effort on reducing the amount of traffic incidents by introducing the new traffic laws and speed tracking system. However, the number of cases of road deaths does not drop significantly.
+According to the statistics on drivers in Malaysia taken from Official Portal of Road Transport Department Malaysia shown in Figure\ref{fig:driver}, the amount of drivers increases every year in Malaysia. The drivers got the license through driving examinations, but it does not mean that the drivers have good driving behaviour.
+ 
+\begin{figure}[hbt!]\centering
+\includegraphics[width=.75\textwidth]{image/totaldriver}
+\caption{Accumulated total of drivers by year (source from: http://www.jpj.gov.my/) }
+\label{fig:driver}
+\end{figure}
+
+According to the general road accident data in Malaysia taken from Malaysian Institute of Road Safety Research (MIROS) official website shown in Figure \ref{fig:accident}, Malaysia government put effort on reducing the amount of traffic incidents by introducing the new traffic laws and speed tracking system. However, the number of cases of road deaths does not drop significantly. It means that drivers' personal factors also related to the occurrence of traffic incident.
 
 \begin{figure}[hbt!]\centering
 \includegraphics[width=.75\textwidth]{image/accident}
-\caption{General Road Accident Data in Malaysia (1997 - 2014)}
+\caption{General Road Accident Data in Malaysia (1997 - 2014) (source from: https://www.miros.gov.my/)}
 \label{fig:accident}
 \end{figure}
 
-The driver characteristics and the occurrence of traffic incident is interrelated. To further reduce the number of accidents, the safety equipment of the vehicle needs to be improved as well as the road regulations, but also pay attention to driver behaviour. The behaviour of the driver is hard to be identified. The driver behaviour is affected by environment, vehicle condition and the mental or physical state. One of the ways to identify driver behaviour is using the vehicle telemetry data.
+The driver characteristics and the occurrence of traffic incident is interrelated. To further reduce the number of accidents, the safety equipment of the vehicle needs to be improved as well as the road regulations, but also pay attention to driver behaviour. However, the behaviour of the driver is hard to be identified. The driver behaviour is affected by environment, vehicle condition and the mental or physical state.\cite{miyaji:danno:oguri:2008} One of the ways to identify driver behaviour is using the vehicle telemetric data.
+
+\section{Research Motivation}
+This project might help insurance company to de-tariff the Motor Insurance in Malaysia. However, the insurance companies cannot obtain the vehicle telemetric data from customers directly. They cannot force their customers to drive without knowing that they are monitoring the customer's vehicle telemetric data.
+
+Currently, new high end cars do send driving data back to the manufacturers. Consumer group Federation Internationale de I'Automobile (FIA) exposed Bayerische Motoren Werke AG (BMW) received data from their manufactured cars. The data actually can analyse driver driving behaviour.\cite{catherine:2015} So, the model built in this project can possibly be used when these insurance companies want to classify drivers. However, the insurance companies may classify the drivers with lesser data.
 
 \section{Project Objective}
 \begin{enumerate}
-\item To identify the features that contribute to the accuracy of the classification of the driver behaviour analysis from the vehicle telemetry data.
-\item To classify each vehicle telemetry records.
-\item To profile the drivers based on the labelled vehicle telemetry data.
+\item To identify the features that contributes to the accuracy of the classification of the driver behaviour analysis from the vehicle telemetric data.
+\item To classify each vehicle telemetric records.
+\item To profile the drivers based on the labelled vehicle telemetric data.
 \end{enumerate}
 
-\section{Research Motivation}
-The price of the driver insurance plan is same among people. High risk driver and low risk driver pay the same price for the insurance. Logically, the high risk driver should pay more. However, driver behaviour is hard to be determine as good or bad. 
-
 \section{Project Scope}
-This project focuses on the driver driving behaviour profiling. Actual vehicle telemetry data are captured by using sensor. The vehicle telemetry data will be collected and preprocessed before analysing. Each driver is required to drive the car for at least 8 minutes to collect data. The data will be recorded every second. For each driver, there are at least 480 records in the dataset. K Means algorithm is implemented in this project to cluster the vehicle operation records. Each record will be labelled as good, medium or bad condition. Based on the labelled records, the drivers will be categorized to three classes. The classes are low risk, medium risk and high risk. 
+This project focuses on the driver driving behaviour profiling. Actual vehicle telemetric data are captured by sensor. The vehicle telemetric data will be collected and preprocessed before analysing. This project requires a vehicle that supports the On Board Diagnostic (OBD-II) device. Each driver is required to drive the vehicle for at least 8 minutes to collect data. The data will be recorded every second. For each driver, there are at least 480 records in the dataset. K-Means algorithm is implemented in this project to cluster the vehicle operation records. Each record will be labelled as good, medium or bad condition. Based on the labelled records, the drivers will be categorized to three classes. The classes are low risk, medium risk and high risk. 
 
 \section{Project Plan}
 Proper time and resource management is important to complete this project. Table \ref{tbl:gantt1} shows a brief description of the project timeline.

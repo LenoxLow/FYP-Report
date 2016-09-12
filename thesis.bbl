@@ -1,6 +1,39 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Berthold%
+\ \protect \BOthers {.}}{%
+Berthold%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+knime}
+\APACinsertmetastar {%
+knime}%
+\begin{APACrefauthors}%
+Berthold, M\BPBI R.%
+, Cebron, N.%
+, Dill, F.%
+, Gabriel, T\BPBI R.%
+, K\"{o}tter, T.%
+, Meinl, T.%
+\BDBL {}Wiswedel, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{KNIME}: The {K}onstanz {I}nformation {M}iner} {{KNIME}:
+  The {K}onstanz {I}nformation {M}iner}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Studies in Classification, Data Analysis, and Knowledge
+  Organization (GfKL 2007).} {Studies in classification, data analysis, and
+  knowledge organization (gfkl 2007).}
+\newblock
+\APACaddressPublisher{}{Springer}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Chen%
 , Pan%
 \BCBL {}\ \BBA {} Lu%
@@ -90,6 +123,37 @@ Kulanthayan, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Miyaji%
+, Danno%
+\BCBL {}\ \BBA {} Oguri%
+}{%
+Miyaji%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+miyaji:danno:oguri:2008}
+\APACinsertmetastar {%
+miyaji:danno:oguri:2008}%
+\begin{APACrefauthors}%
+Miyaji, M.%
+, Danno, M.%
+\BCBL {}\ \BBA {} Oguri, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{June}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Analysis of driver behavior based on traffic incidents
+  for driver monitor systems} {Analysis of driver behavior based on traffic
+  incidents for driver monitor systems}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Intelligent Vehicles Symposium, 2008 IEEE} {Intelligent
+  vehicles symposium, 2008 ieee}\ (\BPG~930-935).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/IVS.2008.4621130} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Ng%
 }{%
 Ng%
@@ -168,6 +232,32 @@ Sathyanarayana, A.%
   2008. ieee international conference on}\ (\BPG~276-281).
 \newblock
 \begin{APACrefDOI} \doi{10.1109/ICVES.2008.4640874} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Stupp%
+}{%
+Stupp%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+catherine:2015}
+\APACinsertmetastar {%
+catherine:2015}%
+\begin{APACrefauthors}%
+Stupp, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {Consumer groups expose manufacturers for collecting data from
+  connected cars.} {Consumer groups expose manufacturers for collecting data
+  from connected cars.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.euractiv.com/section/digital/news/consumer-groups-expose-manufacturers-for-collecting-data-from-connected-cars/}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

@@ -1,7 +1,8 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces General Road Accident Data in Malaysia (1997 - 2014)}}{1}{figure.1.1}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Accumulated total of drivers by year (source from: http://www.jpj.gov.my/) }}{1}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces General Road Accident Data in Malaysia (1997 - 2014) (source from: https://www.miros.gov.my/)}}{2}{figure.1.2}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Hierarchy among the units of route recognition (Sathyanarayana et al., 2008)}}{6}{figure.2.1}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Bottom-to-top approach for route model construction (Sathyanarayana et al., 2008)}}{7}{figure.2.2}
@@ -14,16 +15,16 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces The flow of the driver driving behaviour profiling method. }}{17}{figure.4.1}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces The raw data file is opened in Google Drive.}}{18}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces The Map View in Google Earth for the vehicle telemetry data.}}{19}{figure.4.3}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The Map View in Google Earth for the vehicle telemetric data.}}{19}{figure.4.3}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces The Street View in Google Earth at the traffic light intersection.}}{19}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces The vehicle telemetry data is added on the speed test column and road condition column.}}{20}{figure.4.5}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The vehicle telemetric data is added on the speed test column and road condition column.}}{20}{figure.4.5}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces CSV Reader settings for data preprocessing.}}{21}{figure.4.6}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces CSV files are concatenated by using the concatenation module in KNIME.}}{22}{figure.4.7}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces The correlation among the features}}{23}{figure.4.8}
 \contentsline {figure}{\numberline {4.9}{\ignorespaces The coordinates of cluster center for each cluster.}}{24}{figure.4.9}
 \contentsline {figure}{\numberline {4.10}{\ignorespaces The relationship between the speed test and the three clusters.}}{24}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces The completed workflow for classify the driving operation model.}}{25}{figure.4.11}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces K Means Algorithm module setting.}}{25}{figure.4.12}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces The completed workflow for classifying the driving operation model.}}{25}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces K-Means Algorithm module setting.}}{25}{figure.4.12}
 \contentsline {figure}{\numberline {4.13}{\ignorespaces The result of the driver driving behaviour profiling by using Tableau side-by-side bar with average point.}}{27}{figure.4.13}
 \addvspace {10pt}
 \addvspace {10pt}
