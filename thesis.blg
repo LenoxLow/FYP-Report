@@ -8,6 +8,7 @@ A level-1 auxiliary file: chap-theoritical.aux
 A level-1 auxiliary file: sample-chap-dummy.aux
 A level-1 auxiliary file: chap-implementation-plan.aux
 A level-1 auxiliary file: sample-chap-conclusion.aux
+A level-1 auxiliary file: sample-appen-manual.aux
 A level-1 auxiliary file: sample-appen-try.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -28,7 +29,7 @@ Warning--entry type for "andrew:2016" isn't style-file defined
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 9 entries,
             6951 wiz_defined-function locations,
-            1328 strings with 12673 characters,
+            1329 strings with 12696 characters,
 and the built_in function-call counts, 20372 in all, are:
 = -- 2777
 > -- 183

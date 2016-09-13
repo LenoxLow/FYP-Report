@@ -17,37 +17,37 @@
 \contentsline {section}{\numberline {1.4}Project Scope}{3}{section.1.4}
 \contentsline {section}{\numberline {1.5}Project Plan}{3}{section.1.5}
 \vspace *{-4pt}
-\contentsline {chapter}{\chapternumberline {2}\MakeUppercase {Related Work}}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Driver Behaviour Analysis through Speech Emotional Understanding}{4}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Driver Behaviour Analysis Method}{5}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Experimental Result}{5}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Driver Behaviour Analysis and Route Recognition by Hidden Markov Models}{5}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Data Collection}{8}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Experimental Result}{8}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Driving Behaviour Analysis Based on Vehicle OBD Information and AdaBoost Algorithms}{8}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}AdaBoost Algorithms}{9}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Driving Behaviour Analysis Method}{9}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Vehicle OBD information Data Preprocessing}{10}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Experimental Result}{11}{subsection.2.4.4}
+\contentsline {chapter}{\chapternumberline {2}\MakeUppercase {Related Work}}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Driver Behaviour Analysis through Speech Emotional Understanding}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Driver Behaviour Analysis Method}{6}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Experimental Result}{6}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Driver Behaviour Analysis and Route Recognition by Hidden Markov Models}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Data Collection}{9}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Experimental Result}{9}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Driving Behaviour Analysis Based on Vehicle OBD Information and AdaBoost Algorithms}{9}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}AdaBoost Algorithms}{10}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Driving Behaviour Analysis Method}{10}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Vehicle OBD information Data Preprocessing}{11}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Experimental Result}{12}{subsection.2.4.4}
 \vspace *{-4pt}
-\contentsline {chapter}{\chapternumberline {3}\MakeUppercase {Requirement}}{12}{chapter.3}
-\contentsline {section}{\numberline {3.1}Hardware Requirement Introduction}{12}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Vehicle OBD system}{12}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}ELM327}{13}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Software Requirement Introduction}{13}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Torque(Lite)}{14}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}KNIME Analytics Platform}{15}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}K-Means Algorithm}{16}{subsection.3.2.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeUppercase {Requirement}}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Hardware Requirement Introduction}{13}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Vehicle OBD system}{13}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}ELM327}{14}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Software Requirement Introduction}{14}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Torque(Lite)}{15}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}KNIME Analytics Platform}{16}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}K-Means Algorithm}{17}{subsection.3.2.3}
 \vspace *{-4pt}
-\contentsline {chapter}{\chapternumberline {4}\MakeUppercase {Design}}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2}Data Acquisition}{17}{section.4.2}
+\contentsline {chapter}{\chapternumberline {4}\MakeUppercase {Design}}{18}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{18}{section.4.1}
+\contentsline {section}{\numberline {4.2}Data Acquisition}{18}{section.4.2}
 \contentsline {section}{\numberline {4.3}Driving Operation Data Preprocessing}{21}{section.4.3}
-\contentsline {section}{\numberline {4.4}Data Fusion}{21}{section.4.4}
-\contentsline {section}{\numberline {4.5}Establish the driving operation model by K-Means Algorithm}{21}{section.4.5}
+\contentsline {section}{\numberline {4.4}Data Fusion}{22}{section.4.4}
+\contentsline {section}{\numberline {4.5}Establish the driving operation model by K-Means Algorithm}{22}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Features selection}{22}{subsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.1 (a)}Linear Correlation}{22}{subsubsection.4.5.1.1}
+\contentsline {subsubsection}{\numberline {4.5.1 (a)}Linear Correlation}{23}{subsubsection.4.5.1.1}
 \contentsline {subsection}{\numberline {4.5.2}Cluster Labelling}{23}{subsection.4.5.2}
 \contentsline {subsection}{\numberline {4.5.3}Workflow Design}{24}{subsection.4.5.3}
 \contentsline {section}{\numberline {4.6}Driver Driving Behaviour Profiling}{25}{section.4.6}
@@ -63,6 +63,10 @@
 \contentsline {chapter}{\chapternumberline {6}\MakeUppercase {Conclusion}}{30}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{30}{section.6.1}
 \contentsline {section}{\numberline {6.2}Conclusion}{30}{section.6.2}
+\contentsline {chapter}{REFERENCES}{31}{chapter*.9}
 \vspace *{-4pt}
-\contentsline {appendix}{\chapternumberline {A}\MakeUppercase {Meeting Log}}{31}{appendix.A}
-\contentsline {chapter}{REFERENCES}{32}{appendix*.9}
+\contentsline {chapter}{\MakeUppercase {Work Flow Design}}{32}{appendix*.10}
+\vspace *{-4pt}
+\contentsline {chapter}{\MakeUppercase {Sample data}}{34}{appendix*.11}
+\vspace *{-4pt}
+\contentsline {chapter}{\MakeUppercase {Meeting Log}}{37}{appendix*.12}

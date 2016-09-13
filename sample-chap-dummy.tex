@@ -12,17 +12,40 @@ In this project, the driving behaviour analysis method contains driving operatio
 \section{Data Acquisition}
 In this project, few drivers have been invited to participate in the data collection. The ELM327 device needs to be connected with the vehicle OBD-II socket. The smartphone with the Torque(Lite) needs to be put in the vehicle. It needs to connect with the ELM327 device and GPS location service. Torque(Lite) logging function needs to be triggered and stopped in each driver driving session. 
 
-Vehicle telemetric data will be recorded in every second. The drivers are requested to drive at least 8 minutes. At least 480 vehicle operation records can be collected from each driver. All drivers were driving in different path. The raw data will be uploaded and stored in Google Drive. Figure \ref{fig:GDfile} shows  the view of the raw data in Google Drive.
+Vehicle telemetric data will be recorded in every second. The drivers are requested to drive at least 8 minutes. At least 480 vehicle operation records can be collected from each driver. All drivers were driving in different path. The raw data will be uploaded and stored in Google Drive. Table \ref{tbl:GDfile} shows a part of the collected raw data.
 
-\begin{figure}[hbt!]\centering
-\includegraphics[width=.75\textwidth]{image/GDfile}
-\caption{The raw data file is opened in Google Drive.}
-\label{fig:GDfile}
-\end{figure}
+\begin{table}[h!]
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+Longitude & Latitude & Altitude & Bearing & G(calibrated) & Speed (GPS)(km/h)\\
+\hline
+101.6432576 & 2.92546471 & 43 & 211.7 & 2.92537175 & 31.46531677 \\
+\hline
+101.6432275 & 2.92543245 & 43 & 218.1 & 0.18068463 & 21.97698784 \\
+
+\hline
+101.6432034 & 2.92540777 & 44 & 220.9 & 0.11199981 & 14.36765385 \\
+
+\hline
+101.6431939 & 2.92539357 & 44 & 219.5 & 0.025607169 & 7.865155697 \\
+
+\hline
+101.643183 & 2.92537175 & 43 & 219.6 & 0.0652315 & 7.064535618 \\
+\hline
+\end{tabular}
+\caption{A part of the raw data.}
+\label{tbl:GDfile}
+\end{table}
+
+%\begin{figure}[hbt!]\centering
+%\includegraphics[width=.75\textwidth]{image/GDfile}
+%\caption{The raw data file is opened in Google Drive.}
+%\label{fig:GDfile}
+%\end{figure}
 
 For this project, the vehicle OBD-II information data and GPS data will be collected and store in the same file. Some of the features are vehicle speed, engine speed, engine coolant temperature, throttle position, latitude coordinate, longitude coordinate, GPS speed, GPS altitude, horizontal dilution of precision, GPS bearing, and GPS acceleration. Those data will be written in a same file.
 
-A new feature, speed test can be added into the data. Speed test is a value to determine whether the driver exceeded the speed limit or not at the particular time frame. The value of the speed test is '-1' or '1'. '-1' means the driver exceeded the speed limit at the particular time frame. '1' is on the contrast. The speed limit will be determined by the road condition. The road condition includes straight road, curve road, traffic light intersection, intersection, roundabout, and state road. The road condition will be referred from the Google Earth. The KML file converted by the Torque(Lite) will show the path of the driver drove. In Figure \ref{fig:GEMap}, each record of the vehicle telemetric data will be displayed as a green arrow and marked on the map. 
+A new feature, speed test can be added into the data. Speed test is a value to determine whether the driver exceeded the speed limit or not at the particular time frame. The value of the speed test is '-1' or '1'. '-1' means the driver exceeded the speed limit at the particular time frame. '1' is on the contrast. The speed limit will be determined by the road condition. The road condition includes straight road, curve road, traffic light intersection, intersection, roundabout, U-turn, and state road. The road condition will also be added into the data. The road condition refers from the Google Earth. The KML file converted by the Torque(Lite) will show the path of the driver drove. In Figure \ref{fig:GEMap}, each record of the vehicle telemetric data will be displayed as a green arrow and marked on the map. 
 
 \begin{figure}[hbt!]\centering
 \includegraphics[width=.75\textwidth]{image/GEMapView}
@@ -42,20 +65,11 @@ In Malaysia, speed limit of expressways by default is 110 km/h, but it will be 9
 
 Drivers suppose to stop at the intersection and observe the surroundings vehicle movement before turning to another route. So, speed limit of intersection area will be set as 30km/h in this project to determine the drivers' speed limit condition. The intersections having traffic light will be applied with 35km/h speed limit. Drivers should not drive through the traffic light intersection area with high speed. In some circumstances, drivers will accelerate when the traffic light changes to amber. As the result, the drivers will stop the car uncomfortably due to this insufficient time period. The drivers need to make decision at the stop-line either to pass through the intersection after red signals or brake hard in front of the intersection. This action will increase the potential of accident occurances.\cite{kulanthayan:phang:hayati:2007}
 
-LibreOffice and Google Sheet are used to add on the speed test feature and the road condition feature. The driver name is also added to the vehicle telemetric data of the particular driver. Figure \ref{fig:speedtest} shown the vehicle telemetric data after added on new features.
-
-\begin{figure}[hbt!]\centering
-\includegraphics[width=.75\textwidth]{image/LOspeedtest}
-\caption{The vehicle telemetric data is added on the speed test column and road condition column.}
-\label{fig:speedtest}
-\end{figure}
-
-
 \section{Driving Operation Data Preprocessing}
-The first 30 rows and last 30 rows of the collected vehicle telemetric data need to be removed. This is because drivers just come out from the parking at the beginning or drive into a parking slot at the end of the driving session. The removed data is always incomplete. Figure \ref{fig:preprocess} shows the setting of CSV Reader module of the KNIME Analytic Platform to perform data preprocessing.
+The first 30 rows and last 30 rows of the collected vehicle telemetric data need to be removed. This is because drivers just come out from the parking at the beginning or drive into a parking slot at the end of the driving session. The removed data is always incomplete. Figure \ref{fig:preprocess} shows the setting of CSV Reader module of the KNIME Analytics Platform to perform data preprocessing.
 
 \begin{figure}[hbt!]\centering
-\includegraphics[width=.75\textwidth]{image/datapreprocessing}
+\includegraphics[height=.5\textwidth]{image/datapreprocessing}
 \caption{CSV Reader settings for data preprocessing.}
 \label{fig:preprocess}
 \end{figure}
@@ -64,13 +78,13 @@ The first 30 rows and last 30 rows of the collected vehicle telemetric data need
 All the pieces of preprocessed data for each driver are required to be concatenated as a big table before performing clustering. In Figure \ref{fig:KNIMEfile}, Concatenate module provided by the platform combines the processed data.
 
 \begin{figure}[hbt!]\centering
-\includegraphics[width=.75\textwidth]{image/KNIMEconcatenate}
+\includegraphics[height=.5\textwidth]{image/KNIMEconcatenate}
 \caption{CSV files are concatenated by using the concatenation module in KNIME.}
 \label{fig:KNIMEfile}
 \end{figure}
 
 \section{Establish the driving operation model by K-Means Algorithm}
-A workflow is designed and implemented by using KNIME Analytic Platform. The workflow will be able to input the vehicle telemetric data file and perform K-Means Algorithm on the dataset. The number of clusters can be 3, 4, 5 or more. However, three clusters will be identified through the workflow in this project. The three clusters will represent the good, medium, and bad vehicle condition data. In the end of this process, each vehicle operation record will be labelled with the good, medium, and bad vehicle condition data.
+A workflow is designed and implemented by using KNIME Analytics Platform. The workflow will be able to input the vehicle telemetric data file and perform K-Means Algorithm on the dataset. The number of clusters can be 3, 4, 5 or more. However, three clusters will be identified through the workflow in this project. The three clusters will represent the good, medium, and bad vehicle condition data. In the end of this process, each vehicle operation record will be labelled with the good, medium, and bad vehicle condition data.
 
 \subsection{Features selection}
 Some of the features of the vehicle telemetric data are chosen for the usage in clustering. Linear Correlation module is implemented to help features selection. The linear correlations between the features are shown in Figure \ref{fig:correlation}. The low saturation of the colors means that the correlation between the two features is low. According to the correlation result, the selected features include GPS Altitude, GPS Bearing, GPS Vehicle Speed (km/h), Engine Speed, Throttle Position, and Speed Test. Engine coolant temperature and acceleration sensor are removed because these two features do not have strong relationship among the rest of the features. The selected features will be used in clustering.
@@ -94,7 +108,7 @@ After the K-Means Algorithm module execution, three clusters will be generated. 
 \end{figure}
 
 
-String Replacer module provided by KNIME Analytic Platform is implemented to change the 'cluster\_0', 'cluster\_1' and 'cluster\_2' to 'good', 'medium' and 'bad' accordingly.
+String Replacer module provided by KNIME Analytics Platform is implemented to change the 'cluster\_0', 'cluster\_1' and 'cluster\_2' to 'good', 'medium' and 'bad' accordingly.
 
 Tableau is implemented to show the relationship between the vehicle speed, speed test and the three clusters in Figure \ref{fig:cluster_result}. Based on the graphical result, if speed test value is '-1', the particular record will not be guaranteed to label as  medium or bad. The low vehicle speed does not mean that the driving behaviour is good.
 
@@ -110,7 +124,7 @@ The completed workflow is displayed in the Figure \ref{fig:workflow}. The CSV Re
 
 \begin{figure}[hbt!]\centering
 \includegraphics[width=.75\textwidth]{image/KNIMEfile}
-\caption{The completed workflow for classifying the driving operation model.}
+\caption{The completed workflow for classifying the driving operation model.(See detail in Appendix A)}
 \label{fig:workflow}
 \end{figure}
 
